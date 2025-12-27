@@ -1,0 +1,10 @@
+======== Reseñas ========
+
+ID: 1
+Usuario: Juan
+Tipo de Servicio: Hotel
+Servicio: Hilton
+Fecha: 2025-06-08 18:55
+Estrellas: 5
+Reseña: Bueno
+

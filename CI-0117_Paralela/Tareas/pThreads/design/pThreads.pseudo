@@ -1,0 +1,72 @@
+main() {
+    leer argumentos -> archivo entrada + núm. de hilos (por defecto 2)
+    limpiar directorio de salida
+    abrir archivo entrada
+
+    por cada línea del archivo:
+        crear_plate(linea)
+
+    crear_reporte(salida, array_iteraciones)
+}
+crear_plate(linea) {
+    parsear: archivo_bin, delta_t, alpha, h, epsilon
+    construir ruta_binario = "tests/" + archivo_bin
+    leer_plate(ruta_binario, parámetros)
+}
+leer_plate() {
+    abrir binario y leer filas/columnas
+    reservar memoria para temperaturas
+    leer datos de temperatura
+
+    iteraciones = simular_difusion(temperaturas, parámetros, num_hilos)
+    guardar iteraciones en array y escribir_resultado()
+
+    liberar memoria
+}
+simular_difusion() {
+    calcular coef = alpha * delta_t / (h*h)
+    advertir si coef > 0.25 (inestable)
+
+    repetir {
+        copiar_boundaries()
+
+        dividir filas internas entre hilos
+        cada hilo ejecuta calcular_difusion()
+
+        esperar a que terminen hilos
+        obtener cambioMax de todos
+
+        copiar nueva_temp → temperaturas
+        iteraciones++
+    } hasta que cambioMax ≤ epsilon
+
+    retornar iteraciones
+}
+calcular_difusion() {
+    cada hilo calcula su parte de la matriz
+    calcular nuevo valor de temperatura
+    guardar cambioMax en variable compartida
+}
+guardar_resultado() {
+    abrir archivo de salida
+    escribir iteraciones y temperaturas finales
+    cerrar archivo
+}
+copiar_boundaries() {
+    copiar filas superiores e inferiores
+    copiar columnas laterales
+}
+leer argumentos() {
+    leer archivo entrada
+    leer número de hilos
+}
+limpiar directorio de salida() {
+    eliminar archivos temporales
+}
+crear_reporte() {
+    abrir archivo de salida
+    escribir encabezado
+    por cada iteración:
+        escribir iteración y temperaturas
+    cerrar archivo
+}

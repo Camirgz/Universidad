@@ -1,0 +1,4 @@
+procedure main(argc, argv[])
+  print "Hello from main thread of process ", process_number, " of " \
+    , process_count, " on ", process_hostname
+end procedure

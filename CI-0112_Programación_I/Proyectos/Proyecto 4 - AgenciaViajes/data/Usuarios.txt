@@ -1,0 +1,4 @@
+Juan;juan@mail.com;pass123;usuario;500.00;1;1234
+Maria;maria@mail.com;pass456;usuario;1200.00;2;5678
+a;a;a;a;20000.00;3;123
+b;b;;admin;0.00;0;0

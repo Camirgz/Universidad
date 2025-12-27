@@ -1,0 +1,25 @@
+= MPI Wrapper
+:experimental:
+:nofooter:
+:source-highlighter: pygments
+:stem:
+:toc:
+:xrefstyle: short
+
+[[hello]]
+== Hello wrapper
+
+Escriba una clase reutilizable `Mpi` en C++ que encapsule funcionalidad repetitiva del estándar MPI y provea un buen manejo de errores. Dado que usará plantillas, su clase estará en un archivo `Mpi.hpp`. En ejercicios posteriores usted incrementará y reutilizará esta clase.
+
+La clase debe tener al menos los atributos indicados en el pseudocódigo propuesto para ejecución distribuida (<<pseudo_mpi>>), esto es: número de proceso (`int`), cantidad de procesos en el equipo (`int`), y nombre de la máquina donde corre el proceso (`std::string`).
+
+Provea un constructor que reciba _referencias_ a los argumentos de línea de comandos, inicialice el ambiente de ejecución de MPI, y llame funciones de MPI para inicializar los atributos de la clase. Lance una instancia de `std::runtime_error` en el constructor si no puede inicializar el ambiente de MPI u obtener el valor para un atributo. Provea un mensaje descriptivo en cada excepción. Provea un destructor que termine la ejecución del ambiente MPI, pero no lance excepciones en caso de fallo.
+
+Para cada atributo de la clase provea un método _get_ en línea (`inline`), pero no provea métodos _set_. Provea además un método `rank()` para obtener el el número de proceso, y un método `size()` para obtener la cantidad de procesos en el equipo.
+
+Documente la clase, atributos, y métodos con Doxygen. Agregue a la carpeta un archivo `main.cpp` con el siguiente código que debería producir el mismo resultado que el <<act_mpi_hello>>. Pruebe que al ejecutarlo con varios procesos, estos saluden de forma indeterminística.
+
+[source,c++,linenums]
+----
+include::hello/main.cpp[]
+----

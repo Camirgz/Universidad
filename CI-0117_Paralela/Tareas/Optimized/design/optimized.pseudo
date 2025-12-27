@@ -1,0 +1,78 @@
+main() {
+    leer argumentos -> archivo entrada + núm. de hilos (por defecto núcleos del sistema)
+    limpiar_directorio("resultados")
+    abrir archivo entrada
+
+    por cada línea del archivo:
+        crear_plate(linea, array_iteraciones, contador, num_hilos, jobDir) en hilo separado
+
+    esperar a que terminen todos los hilos
+    crear_reporte(archivo_entrada, array_iteraciones)
+}
+
+crear_plate(linea, array_iteraciones, contador, num_hilos, jobDir) {
+    parsear línea: archivo_bin, delta_t, alpha, h, epsilon
+    construir ruta_binario = jobDir + "/" + archivo_bin
+    leer_plate(ruta_binario, plate, array_iteraciones, contador, num_hilos)
+}
+
+leer_plate(nombre_bin, plate, array_iteraciones, contador, num_hilos) {
+    abrir archivo binario
+    leer filas y columnas
+    reservar memoria para temperaturas
+    leer datos de temperatura
+    iteraciones = simular_difusion(temperaturas, filas, columnas, plate, num_hilos)
+    array_iteraciones[contador] = iteraciones
+    contador++
+    escribir_resultado(nombre_bin, temperaturas, filas, columnas, iteraciones)
+    liberar memoria
+}
+
+simular_difusion(temperaturas, filas, columnas, plate, num_hilos) {
+    calcular coef = alpha * delta_t / (h*h)
+    reservar buffer temporal
+    iteraciones = 0
+
+    repetir {
+        copiar_boundaries(src, dst, filas, columnas)
+        cambioMax = 0
+
+        por cada celda interior (i, j):
+            calcular nuevo valor dst[i][j]
+            comparar con src[i][j] y actualizar cambioMax si necesario
+
+        intercambiar src y dst
+        iteraciones++
+    } hasta que cambioMax ≤ epsilon
+
+    si src != temperaturas:
+        copiar src a temperaturas
+
+    liberar buffer
+    retornar iteraciones
+}
+
+copiar_boundaries(src, dst, filas, columnas) {
+    copiar primera y última fila
+    copiar primera y última columna
+}
+
+leer argumentos() {
+    si argc < 2:
+        mostrar uso y salir
+
+    jobPath = argv[1]
+    num_hilos = argv[2] si existe, si no usar sysconf(_SC_NPROCESSORS_ONLN)
+}
+
+limpiar_directorio("resultados") {
+    eliminar todos los archivos dentro del directorio "resultados"
+}
+
+crear_reporte(archivo_entrada, array_iteraciones) {
+    abrir archivo de salida
+    escribir encabezado
+    por cada línea:
+        escribir nombre de la placa y número de iteraciones
+    cerrar archivo
+}

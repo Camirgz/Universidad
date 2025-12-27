@@ -1,0 +1,17 @@
+
+Hello from main thread of process 0 of 16 on compute-6
+Hello from main thread of process 1 of 16 on compute-6
+Hello from main thread of process 2 of 16 on compute-6
+Hello from main thread of process 3 of 16 on compute-6
+Hello from main thread of process 4 of 16 on compute-6
+Hello from main thread of process 5 of 16 on compute-6
+Hello from main thread of process 6 of 16 on compute-6
+Hello from main thread of process 7 of 16 on compute-6
+Hello from main thread of process 8 of 16 on compute-7
+Hello from main thread of process 9 of 16 on compute-7
+Hello from main thread of process 10 of 16 on compute-7
+Hello from main thread of process 11 of 16 on compute-7
+Hello from main thread of process 12 of 16 on compute-7
+Hello from main thread of process 13 of 16 on compute-7
+Hello from main thread of process 14 of 16 on compute-7
+Hello from main thread of process 15 of 16 on compute-7

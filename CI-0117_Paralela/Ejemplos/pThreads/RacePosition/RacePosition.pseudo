@@ -1,0 +1,18 @@
+procedure main(argc, argv[])
+  shared position := 0
+  shared can_access_position := create_mutex()
+  shared thread_count := integer(argv[1])
+  for thread_number := 0 to thread_count do
+    create_thread(greet, thread_number) // thread team
+  end for
+  print "Hello from main thread"
+end procedure
+
+procedure race(thread_number)
+  lock(can_access_position)
+  position := position + 1
+  declare my_position := position
+  print "Thread ", thread_number, "/", thread_count ": I arrived at position ",
+    my_position
+  unlock(can_access_position)
+end procedure

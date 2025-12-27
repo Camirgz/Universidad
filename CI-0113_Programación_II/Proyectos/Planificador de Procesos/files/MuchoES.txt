@@ -1,0 +1,21 @@
+proceso input_heavy1 3
+e/s
+e/s
+instruccion 1
+e/s
+instruccion 2
+fin proceso
+proceso input_heavy2 1
+e/s
+instruccion 3
+e/s
+instruccion 4
+e/s
+fin proceso
+proceso input_heavy3 2
+e/s
+instruccion 5
+e/s
+e/s
+instruccion 6
+fin proceso

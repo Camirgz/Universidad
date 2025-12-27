@@ -1,0 +1,19 @@
+
+Inicializar semáforos y tiempo máximo de duración
+Crear hilos para cada tarea de construcción:
+- Paredes
+- Plomería exterior
+- Techo
+- Pintura exterior
+- Plomería interior
+- Instalación eléctrica
+- Acabados exteriores
+- Pintura interior
+- Pisos
+- Acabados interiores
+
+Cada tarea espera a que los semáforos correspondientes le den permiso
+Cada tarea simula ejecución con un tiempo aleatorio (usleep)
+Al terminar, notifica (sem_post) a las siguientes tareas que pueden continuar
+Esperar a que todos los hilos terminen
+Liberar recursos y terminar el programa

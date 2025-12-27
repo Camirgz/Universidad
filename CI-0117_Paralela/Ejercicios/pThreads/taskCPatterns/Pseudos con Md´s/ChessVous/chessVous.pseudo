@@ -1,0 +1,29 @@
+procedure main()
+  shared players_ready := semaphore(0)
+  shared clock_ready := semaphore(0)
+
+  create_thread(player1)
+  create_thread(player2)
+  create_thread(referee)
+end procedure
+
+procedure player1()
+  enter_room()
+  signal(players_ready)
+  wait(clock_ready)
+  play_chess()
+end procedure
+
+procedure player2()
+  enter_room()
+  signal(players_ready)
+  wait(clock_ready)
+  play_chess()
+end procedure
+
+procedure referee()
+  enter_room()
+  wait(players_ready, 2)
+  set_clock()
+  signal(clock_ready, 2)
+end procedure

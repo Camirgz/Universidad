@@ -1,0 +1,112 @@
+--- Main ----
+
+# incluir librerías necesarias
+
+definir vars globales{
+    buffer de lectura
+    array de iteraciones
+    contador de archivos
+}
+
+int main (){
+    
+    verficar que hayan 3 argumentos 
+    si no hay 3 argumentos:
+        imprimir error
+        retornar 1
+    fin si
+
+    abrir archivo de entrada
+    si no se puede abrir:
+        imprimir error
+        retornar 1
+    fin si
+
+    leer archivo de entrada
+    procesar datos
+    crear placas
+    crear archivos de salida
+    crear reporte
+
+    cerrar archivo de entrada
+}
+
+
+--- Plate ---
+
+funcion de crear plate (buffer de linea, array de iteraciones, contador de archivos){
+    crear objeto plate
+    asignar valores a los atributos del objeto plate
+    agregar el objeto plate al array de iteraciones
+    incrementar contador de archivos
+    liberar memoria
+}
+
+funcion de leer plate (nombre archivo, plate, array de iteraciones){
+    abrir archivo de entrada
+    si no se puede abrir:
+        imprimir error
+        retornar 1
+    fin si
+
+    leer archivo de entrada
+    procesar datos
+    crear plates
+    crear archivos de salida
+    simular difusion
+    escribir resultados
+    liberar memoria
+}
+
+
+funcion de simular difusion (plate, array de iteraciones){
+    reservar espacio para la memoria temporal
+    procesar datos con la formula de la difusion
+    valor absoluto para no tener negativos
+    aumentar iteraciones
+    liberar memoria
+    retornar resultados
+}
+
+--- Control de archivos ---
+
+añadir librerias necesarias
+
+funcion de limpiar directorio (nombre directorio){
+    abrir directorio
+    si no se puede abrir:
+        imprimir error
+        retornar 1
+    fin si
+
+    eliminar archivos temporales
+    cerrar directorio
+}   
+
+funcion de crear archivo (nombre archivo){
+    abrir archivo
+    si no se puede abrir:
+        imprimir error
+        retornar 1
+    fin si
+
+    escribir resultados
+    cerrar archivo
+}
+
+
+--- reporte ---
+añadir librerias necesarias
+
+funcion de tiempo de jesisson 
+
+funcion de crear reporte (nombre archivo, array de iteraciones){
+    abrir archivo
+    si no se puede abrir:
+        imprimir error
+        retornar 1
+    fin si
+
+    escribir resultados
+    cerrar archivo
+}

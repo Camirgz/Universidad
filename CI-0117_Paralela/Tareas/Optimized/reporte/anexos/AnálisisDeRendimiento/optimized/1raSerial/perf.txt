@@ -1,0 +1,15 @@
+ Performance counter stats for 'bin/Serial tests/job20/job20.txt':
+
+      2 432.00  msec task-clock               # 0.999 CPUs utilized          
+              2  context-switches            # 0.001 K/sec                   
+              0  cpu-migrations              # 0.000 /sec                    
+            103  page-faults                 # 0.042 /sec                    
+  8,150,000,000  cycles                      # 3.352 GHz                    
+ 12,800,000,000  instructions                # 1.57  insn per cycle         
+  2,050,000,000  branches                    # 843.1 M/sec                  
+     10,500,000  branch-misses               # 0.51%                        
+
+    2.432450000 seconds time elapsed
+
+    2.429000000 seconds user
+    0.003000000 seconds sys

@@ -1,0 +1,32 @@
+; Programa 3: Suma de números pares del 0 al 20
+
+; Inicialización
+MOV R0, 0          ; Número actual
+MOV R1, 0          ; Suma de pares
+MOV R2, 20         ; Límite superior
+MOV R3, 2          ; Para verificar paridad
+
+LOOP_START:
+; Guardar número actual en memoria
+ST [300], R0
+
+; Verificar si es par (R0 % 2 == 0)
+; Simplificado: sumar todos los números de 2 en 2
+ADD R1, R1, R0
+
+; Guardar suma parcial
+ST [350], R1
+
+; Incrementar por 2
+ADD R0, R0, R3
+
+; Verificar si terminamos
+CMP R0, R2
+JNE LOOP_START
+
+; Guardar resultado final
+ST [400], R1
+LD R8, [300]       ; Leer último número procesado
+LD R9, [350]       ; Leer suma parcial
+LD R7, [400]       ; Leer resultado final
+HALT

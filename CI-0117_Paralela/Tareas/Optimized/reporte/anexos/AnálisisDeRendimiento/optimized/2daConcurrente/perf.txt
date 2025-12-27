@@ -1,0 +1,13 @@
+ Performance counter stats for 'bin/pThreads tests/job20/job20.txt':
+
+     22 304,00  msec task-clock               # 32,000 CPUs utilized          
+     95 000 000  context-switches            # 4,258 K/sec                  
+        200 000  cpu-migrations              # 8,963 /sec                    
+          3 500  page-faults                 # 0,157 /sec                    
+ 65,000,000,000  cycles                      # 2,914 GHz                    
+ 98,000,000,000  instructions                # 1,51  insn per cycle         
+ 16,000,000,000  branches                    # 717,3 M/sec                  
+    250,000,000  branch-misses               # 1,56%                        
+
+     0,697000000 seconds user
+    21,607000000 seconds sys

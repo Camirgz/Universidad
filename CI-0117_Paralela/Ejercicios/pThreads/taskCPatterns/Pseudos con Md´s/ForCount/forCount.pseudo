@@ -1,0 +1,11 @@
+procedure main()
+  shared count := 0
+  create_threads(100, secondary)
+end procedure
+
+procedure secondary()
+  for i := 0 to 100 do
+    const temp := count
+    count := temp + 1
+  end for
+end procedure

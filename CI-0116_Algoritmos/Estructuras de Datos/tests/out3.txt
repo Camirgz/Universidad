@@ -1,0 +1,73 @@
+ ----------------- Pruebas Estructuras de Datos ----------------- 
+
+====== Lista Enlazada Simple ====== 
+
+[SLL] Inserción Aleatoria
+
+[SLL] Búsqueda Aleatoria
+Tiempo de búsqueda: 38.1868 secs.
+
+[SLL] Eliminación Aleatoria
+Tiempo de eliminación: 48.2655 secs.
+
+[SLL] Inserción Ordenada
+
+[SLL] Búsqueda Ordenada
+Tiempo de búsqueda: 47.3635 secs.
+
+[SLL] Eliminación Ordenada
+Tiempo de eliminación: 46.1752 secs.
+
+====== Árbol de Búsqueda Binaria ====== 
+
+[ABB] Inserción Aleatoria
+
+[ABB] Búsqueda Aleatoria
+Tiempo de búsqueda: 0.0032685 secs.
+
+[ABB] Eliminación Aleatoria
+Tiempo de eliminación: 0.0055675 secs.
+
+[ABB] Inserción Ordenada
+
+[ABB] Búsqueda Ordenada
+Tiempo de búsqueda: 0.0001922 secs.
+
+[ABB] Eliminación Ordenada
+Tiempo de eliminación: 0.0001619 secs.
+
+====== Tabla Hash Encadenada ====== 
+
+[CHT] Inserción Aleatoria
+
+[CHT] Búsqueda Aleatoria
+Tiempo de búsqueda: 0.0010814 secs.
+
+[CHT] Eliminación Aleatoria
+Tiempo de eliminación: 0.0014469 secs.
+
+[CHT] Inserción Ordenada
+
+[CHT] Búsqueda Ordenada
+Tiempo de búsqueda: 0.001289 secs.
+
+[CHT] Eliminación Ordenada
+Tiempo de eliminación: 0.0013615 secs.
+
+====== Árbol Rojo-Negro ====== 
+
+[RBTree] Inserción Aleatoria
+
+[RBTree] Búsqueda Aleatoria
+Tiempo de búsqueda:0.0040031 secs.
+
+[RBTree] Eliminación Aleatoria
+Tiempo de eliminación:0.0062587 secs.
+
+[RBTree] Inserción Ordenada
+
+[RBTree] Búsqueda Ordenada
+Tiempo de búsqueda:0.0038495 secs.
+
+[RBTree] Eliminación Ordenada
+Tiempo de eliminación:0.0070639 secs.

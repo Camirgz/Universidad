@@ -1,0 +1,15 @@
+Performance counter stats for 'bin/Serial tests/job002.txt':
+
+             24,24 msec task-clock                       #    0,357 CPUs utilized          
+               155      context-switches                 #    6,395 K/sec                  
+                 0      cpu-migrations                   #    0,000 /sec                   
+                65      page-faults                      #    2,682 K/sec                  
+   <not supported>      cycles                                                      
+   <not supported>      instructions                                                
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+       0,067855606 seconds time elapsed
+
+       0,024903000 seconds user
+       0,000000000 seconds sys

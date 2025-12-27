@@ -1,0 +1,14 @@
+procedure main()
+  shared x := 0
+  create_thread(thread_a)
+  create_thread(thread_b)
+end procedure
+
+procedure thread_a()
+  x := 5
+  print(x)
+end procedure
+
+procedure thread_b()
+  x := 7
+end procedure

@@ -1,0 +1,195 @@
+Usando 1 procesos MPI
+Intentando abrir: 'tests/job003b/job003.txt'
+Archivo tests/job003b/job003.txt abierto correctamente.
+Proceso 0 procesando placa 0: plate003.bin 30 18.8 250 2
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 8 iteraciones.
+Resultados guardados en: resultados/plate003-8.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 1: plate003.bin 30 18.8 250 0.2
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 150 iteraciones.
+Resultados guardados en: resultados/plate003-150.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 2: plate003.bin 30 18.8 250 0.02
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 716 iteraciones.
+Resultados guardados en: resultados/plate003-716.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 3: plate003.bin 30 18.8 250 0.002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 1515 iteraciones.
+Resultados guardados en: resultados/plate003-1515.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 4: plate003.bin 30 18.8 250 0.0002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 3120 iteraciones.
+Resultados guardados en: resultados/plate003-3120.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 5: plate003.bin 30 18.8 250 0.00002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 5472 iteraciones.
+Resultados guardados en: resultados/plate003-5472.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 6: plate003.bin 30 18.8 250 0.000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 7988 iteraciones.
+Resultados guardados en: resultados/plate003-7988.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 7: plate003.bin 30 18.8 250 0.0000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 10508 iteraciones.
+Resultados guardados en: resultados/plate003-10508.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 8: plate003.bin 30 18.8 250 0.00000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 13027 iteraciones.
+Resultados guardados en: resultados/plate003-13027.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 9: plate003.bin 30 18.8 250 0.000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 15548 iteraciones.
+Resultados guardados en: resultados/plate003-15548.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 10: plate003.bin 30 18.8 250 0.0000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 18072 iteraciones.
+Resultados guardados en: resultados/plate003-18072.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 11: plate003.bin 30 18.8 250 0.00000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 20601 iteraciones.
+Resultados guardados en: resultados/plate003-20601.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 12: plate003.bin 30 18.8 250 0.000000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 23136 iteraciones.
+Resultados guardados en: resultados/plate003-23136.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 13: plate003.bin 30 18.8 250 0.0000000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 25667 iteraciones.
+Resultados guardados en: resultados/plate003-25667.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 14: plate003.bin 30 0.34 250 0.2
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 1 iteraciones.
+Resultados guardados en: resultados/plate003-1.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 15: plate003.bin 30 0.34 250 0.02
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 1548 iteraciones.
+Resultados guardados en: resultados/plate003-1548.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 16: plate003.bin 30 0.34 250 0.002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 14287 iteraciones.
+Resultados guardados en: resultados/plate003-14287.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 17: plate003.bin 30 0.34 250 0.0002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 49772 iteraciones.
+Resultados guardados en: resultados/plate003-49772.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 18: plate003.bin 30 0.34 250 0.00002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 99035 iteraciones.
+Resultados guardados en: resultados/plate003-99035.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 19: plate003.bin 30 0.34 250 0.000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 204083 iteraciones.
+Resultados guardados en: resultados/plate003-204083.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 20: plate003.bin 30 0.34 250 0.0000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 338234 iteraciones.
+Resultados guardados en: resultados/plate003-338234.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 21: plate003.bin 30 0.34 250 0.00000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 477708 iteraciones.
+Resultados guardados en: resultados/plate003-477708.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 22: plate003.bin 30 0.34 250 0.000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 617100 iteraciones.
+Resultados guardados en: resultados/plate003-617100.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 23: plate003.bin 30 0.34 250 0.0000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 756437 iteraciones.
+Resultados guardados en: resultados/plate003-756437.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 24: plate003.bin 30 0.34 250 0.00000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 895918 iteraciones.
+Resultados guardados en: resultados/plate003-895918.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 25: plate003.bin 30 0.34 250 0.000000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 1035677 iteraciones.
+Resultados guardados en: resultados/plate003-1035677.bin
+plate003.bin procesado con éxito.
+Proceso 0 procesando placa 26: plate003.bin 30 0.34 250 0.0000000000002
+
+Cargando archivo binario: tests/job003b/plate003.bin
+Lectura exitosa del archivo binario (11x101).
+Difusión con MPI completada en 1175264 iteraciones.
+Resultados guardados en: resultados/plate003-1175264.bin
+plate003.bin procesado con éxito.
+
+Reporte generado en 'output/reporte.txt'
+Tiempo total de ejecución: 12.933380 segundos

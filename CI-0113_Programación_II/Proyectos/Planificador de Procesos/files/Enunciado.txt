@@ -1,0 +1,40 @@
+proceso programa1 0
+instruccion 1
+instruccion 2
+instruccion 1
+e/s
+e/s
+instruccion 2
+instruccion 3
+instruccion 4
+fin proceso
+proceso programa2 9
+instruccion 5
+instruccion 1
+instruccion 5
+e/s
+e/s
+instruccion 1
+instruccion 5
+e/s
+e/s
+instruccion 7
+instruccion 8
+fin proceso
+proceso programaN 1
+instruccion 1
+instruccion 3
+instruccion 1
+e/s
+e/s
+instruccion 5
+instruccion 1
+e/s
+e/s
+instruccion 5
+e/s
+e/s
+instruccion 2
+instruccion 5
+instruccion 3
+fin proceso

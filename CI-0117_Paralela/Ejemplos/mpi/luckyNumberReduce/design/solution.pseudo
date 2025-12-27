@@ -1,0 +1,13 @@
+procedure main(argc, argv[]):
+  declare constant my_lucky_number = random(0, 100)
+  print("Process ", process_number, ": my lucky number is ", my_lucky_number)
+
+  declare all_min := -1
+  declare all_max := -1
+  declare all_sum := -1
+
+  declare constant all_average = all_sum / process_count
+  print("Process ", process_number, ": all minimum = ", all_min)
+  print("Process ", process_number, ": all average = ", all_average)
+  print("Process ", process_number, ": all maximum = ", all_max)
+end procedure

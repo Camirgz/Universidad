@@ -1,0 +1,17 @@
+proceso p0 0
+instruccion 1
+e/s
+e/s
+instruccion 2
+instruccion 3
+fin proceso
+proceso p1 0
+instruccion 4
+instruccion 5
+e/s
+fin proceso
+proceso p2 0
+instruccion 6
+e/s
+instruccion 7
+fin proceso

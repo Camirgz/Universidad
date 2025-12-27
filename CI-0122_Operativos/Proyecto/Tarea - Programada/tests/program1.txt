@@ -1,0 +1,33 @@
+; Programa 1: Cálculo de Fibonacci iterativo
+; Calcula los primeros 10 números de Fibonacci
+
+; Inicialización
+MOV R0, 0          ; Fibonacci(0) = 0
+MOV R1, 1          ; Fibonacci(1) = 1
+MOV R2, 10         ; Contador: calcular 10 números
+MOV R3, 0          ; Índice actual
+
+LOOP:
+; Mostrar valor actual en R0
+ST [100], R0       ; Guardar Fibonacci actual en memoria
+
+; Calcular siguiente Fibonacci: R4 = R0 + R1
+ADD R4, R0, R1
+
+; Actualizar valores para siguiente iteración
+MOV R0, R1         ; R0 = anterior R1
+MOV R1, R4         ; R1 = nuevo Fibonacci
+
+; Incrementar índice
+INC R3
+
+; Verificar si terminamos
+CMP R3, R2
+JNE LOOP           ; Si no hemos llegado a 10, continuar
+
+; Resultado final
+ST [200], R1       ; Guardar resultado final
+LD R8, [100]       ; Leer valor anterior guardado
+LD R9, [200]       ; Leer resultado final
+MOV R9, R1         ; R9 = resultado
+HALT

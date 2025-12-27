@@ -1,0 +1,16 @@
+procedure main:
+  declare constant message_capacity = 512
+  declare message as an array of message_capacity of char initialized with \
+    "Hello from main thread of process " + process_number \
+    + " of " + process_count + " on " + process_hostname
+
+  if process_number != 0 then
+    send(message, length(message), 0)
+  else
+    print(message)
+    for current := 1 to process_count do
+      receive(&message, message_capacity, any_process)
+      print(message)
+    end
+  end if
+end procedure

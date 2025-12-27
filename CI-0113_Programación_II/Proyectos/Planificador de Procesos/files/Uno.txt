@@ -1,0 +1,8 @@
+Proceso input_heavy1 1
+e/s
+e/s
+instruccion 1
+e/s
+e/s
+instruccion 2
+fin proceso

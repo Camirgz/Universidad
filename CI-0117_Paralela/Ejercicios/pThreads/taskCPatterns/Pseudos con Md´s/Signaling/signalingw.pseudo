@@ -1,0 +1,12 @@
+procedure main()
+  input shared thread_count as integer
+  shared can_do_a := create_semaphores(thread_count, 0)
+  signal(can_do_a[0])
+  join_threads(create_threads(thread_count, secondary))
+end procedure
+
+procedure secondary(thread_number)
+  wait(can_do_a[thread_number])
+  statement a
+  signal(can_do_a[mod(thread_number + 1, thread_count)])
+end procedure

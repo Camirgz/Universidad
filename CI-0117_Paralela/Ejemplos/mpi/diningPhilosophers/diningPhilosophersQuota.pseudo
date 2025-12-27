@@ -1,0 +1,35 @@
+procedure main(argc, argv[]):
+  shared chopsticks := create_semaphores(5, 1)
+  shared quota := multiplex(4)
+  join_threads(create_threads(5, philosopher))
+end procedure
+
+procedure philosopher(id):
+  while true do
+    think()
+    wait(quota)
+      get_left_chopstick(id)
+      get_right_chopstick(id)
+    // signal(quota)
+      eat()
+      put_left_chopstick(id)
+      put_right_chopstick(id)
+    signal(quota)
+  end while
+end procedure
+
+procedure get_left_chopstick(id):
+  wait(chopsticks[(id + 1) mod 5])
+end procedure
+
+procedure get_right_chopstick(id):
+  wait(chopsticks[id])
+end procedure
+
+procedure put_left_chopstick(id):
+  signal(chopsticks[(id + 1) mod 5])
+end procedure
+
+procedure put_right_chopstick(id):
+  signal(chopsticks[id])
+end procedure

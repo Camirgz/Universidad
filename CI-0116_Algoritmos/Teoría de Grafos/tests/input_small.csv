@@ -1,0 +1,33 @@
+SourceId,SourceName,TargetId,TargetName,peso
+0,Zapotal,1,Quebradilla,5
+1,Quebradilla,2,Valle La Estrella,8
+2,Valle La Estrella,3,Venado,6
+3,Venado,4,Jaris,5
+4,Jaris,5,Puerto Carrillo,9
+5,Puerto Carrillo,6,San Juan de Dios,11
+6,San Juan de Dios,7,Mata Redonda,9
+7,Mata Redonda,8,Los Guido,8
+8,Los Guido,9,Parrita,11
+9,Parrita,1,Quebradilla,8
+0,Zapotal,3,Venado,12
+0,Zapotal,6,San Juan de Dios,11
+1,Quebradilla,3,Venado,14
+1,Quebradilla,5,Puerto Carrillo,15
+2,Valle La Estrella,3,Venado,6
+3,Venado,5,Puerto Carrillo,6
+3,Venado,6,San Juan de Dios,10
+4,Jaris,2,Valle La Estrella,10
+4,Jaris,8,Los Guido,11
+5,Puerto Carrillo,4,Jaris,3
+5,Puerto Carrillo,6,San Juan de Dios,4
+6,San Juan de Dios,1,Quebradilla,2
+6,San Juan de Dios,4,Jaris,8
+6,San Juan de Dios,7,Mata Redonda,2
+7,Mata Redonda,0,Zapotal,13
+7,Mata Redonda,5,Puerto Carrillo,5
+7,Mata Redonda,8,Los Guido,6
+8,Los Guido,3,Venado,9
+8,Los Guido,4,Jaris,11
+8,Los Guido,5,Puerto Carrillo,14
+8,Los Guido,6,San Juan de Dios,12
+8,Los Guido,7,Mata Redonda,4

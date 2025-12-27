@@ -1,0 +1,22 @@
+proceso gran_proceso 2
+instruccion 1
+instruccion 2
+instruccion 3
+e/s
+instruccion 4
+instruccion 5
+instruccion 6
+e/s
+instruccion 7
+instruccion 8
+instruccion 9
+instruccion 10
+e/s
+e/s
+instruccion 11
+instruccion 12
+e/s
+instruccion 13
+instruccion 14
+instruccion 15
+fin proceso

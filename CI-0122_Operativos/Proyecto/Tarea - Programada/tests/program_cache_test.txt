@@ -1,0 +1,40 @@
+; Programa de prueba para cache de datos
+; Realiza multiples lecturas y escrituras en memoria
+
+; Inicializar registros
+MOV R0, 10
+MOV R1, 20
+MOV R2, 30
+
+; Primera escritura
+ST [100], R0
+ST [104], R1
+ST [108], R2
+
+; Primera lectura (miss esperado)
+LD R3, [100]
+LD R4, [104]
+LD R5, [108]
+
+; Operaciones aritmeticas
+ADD R6, R3, R4
+ADD R7, R6, R5
+
+; Segunda escritura
+ST [112], R6
+ST [116], R7
+
+; Segunda lectura (hits esperados)
+LD R8, [100]
+LD R9, [104]
+
+; Mas operaciones
+ADD R0, R8, R9
+ST [120], R0
+
+; Tercera lectura (hits esperados)
+LD R1, [100]
+LD R2, [104]
+LD R3, [108]
+
+HALT

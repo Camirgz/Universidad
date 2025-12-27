@@ -1,0 +1,16 @@
+ Performance counter stats for 'bin/pThreads tests/job002b/job002.txt':
+
+         12 190,22 msec task-clock                       #    0,666 CPUs utilized          
+         1 004 881      context-switches                 #   82,433 K/sec                  
+                 0      cpu-migrations                   #    0,000 /sec                   
+                87      page-faults                      #    7,137 /sec                   
+   <not supported>      cycles                                                      
+   <not supported>      instructions                                                
+   <not supported>      branches                                                    
+   <not supported>      branch-misses                                               
+
+      18,310424649 seconds time elapsed
+
+       1,951925000 seconds user
+      12,051888000 seconds sys
+

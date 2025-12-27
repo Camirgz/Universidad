@@ -1,0 +1,15 @@
+Hello from main thread of process 2 of 16 on compute-6
+Hello from main thread of process Hello from main thread of process 7 of 16 on compute-6
+Hello from main thread of process 5 of 16 on compute-6
+6Hello from main thread of process 0 of 16 on Hello from main thread of process 3 of 16 on compute-6
+compute-6
+ of 16Hello from main thread of process 1 of 16 on compute-6
+Hello from main thread of process 4 of 16 on compute-6
+ on compute-6
+Hello from main thread of process 10 of 16 on compute-7
+Hello from main thread of process 14 of 16 on compute-7Hello from main thread of process 13 of 16 on
+compute-7
+Hello from main thread of process 15 of Hello from main thread of process 12Hello from main thread of p$compute-7
+Hello from main thread of process 11 of 16 on compute-7
+16 on Hello from main thread of process 8 of 16 on compute-7
+compute-7

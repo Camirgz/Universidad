@@ -1,0 +1,10 @@
+Servicio a la habitacion;25.00
+Spa y masajes;60.00
+Desayuno buffet;15.00
+Limpieza de habitacion extra;10.00
+Acceso al gimnasio;8.00
+Uso de piscina privada;20.00
+Transporte al aeropuerto;35.00
+Excursion guiada;50.00
+Lavanderia;12.00
+Alquiler de bicicletas;18.00

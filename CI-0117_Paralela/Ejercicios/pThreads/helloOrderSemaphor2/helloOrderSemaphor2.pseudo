@@ -1,0 +1,18 @@
+procedure main(argc, argv[])
+  shared thread_count := integer(argv[1])
+  shared can_greet as array of thread_count semaphores
+  
+  for thread_number := 0 to thread_count - 1 do
+    can_greet[thread_number] := create_semaphore(0)
+    create_thread(greet, thread_number)
+  end for
+
+  print "Hello from main thread"
+  signal(can_greet[0])  // Activar hilo 0 después del saludo principal
+end procedure
+
+procedure greet(thread_number)
+  wait(can_greet[thread_number])
+  print "Hello from secondary thread", thread_number, " of ", thread_count
+  signal(can_greet[(thread_number + 1) mod thread_count])
+end procedure

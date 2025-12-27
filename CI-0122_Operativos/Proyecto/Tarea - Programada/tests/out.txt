@@ -1,0 +1,367 @@
+Sistema de Memoria Virtual - Pruebas Completas
+Camila Rodriguez - Yosery Zheng Lu
+
+
+Limpiando compilaciones anteriores...
+
+Compilando el proyecto...
+Compilando ../src/main.cpp...
+g++ -std=c++11 -Wall -Wextra -pthread -g -c ../src/main.cpp -o bin/main.o
+Compilando ../src/cpu.cpp...
+g++ -std=c++11 -Wall -Wextra -pthread -g -c ../src/cpu.cpp -o bin/cpu.o
+Compilando ../src/memory.cpp...
+g++ -std=c++11 -Wall -Wextra -pthread -g -c ../src/memory.cpp -o bin/memory.o
+Compilando ../src/mmu.cpp...
+g++ -std=c++11 -Wall -Wextra -pthread -g -c ../src/mmu.cpp -o bin/mmu.o
+Compilando ../src/process.cpp...
+g++ -std=c++11 -Wall -Wextra -pthread -g -c ../src/process.cpp -o bin/process.o
+Compilando ../src/tlb_pagetable.cpp...
+g++ -std=c++11 -Wall -Wextra -pthread -g -c ../src/tlb_pagetable.cpp -o bin/tlb_pagetable.o
+Compilando ../src/data_cache.cpp...
+g++ -std=c++11 -Wall -Wextra -pthread -g -c ../src/data_cache.cpp -o bin/data_cache.o
+Compilando ../src/virtual_memory_system.cpp...
+g++ -std=c++11 -Wall -Wextra -pthread -g -c ../src/virtual_memory_system.cpp -o bin/virtual_memory_system.o
+Enlazando archivos objeto...
+g++ -std=c++11 -Wall -Wextra -pthread -g -o bin/vm_system bin/main.o bin/cpu.o bin/memory.o bin/mmu.o bin/process.o bin/tlb_pagetable.o bin/data_cache.o bin/virtual_memory_system.o
+Compilacion exitosa: bin/vm_system
+[0;32mCompilacion exitosa[0m
+
+INICIANDO PRUEBAS
+
+
+[1;33mPRUEBA 1: Proceso Individual[0m
+
+
+Sistema de Memoria Virtual con Multiprocesamiento
+Camila Rodríguez - Yosery Zheng Lu
+Sistemas Operativos - 2025
+
+=== Sistema de Memoria Virtual Inicializado ===
+Memoria Física: 512 bytes
+Frames: 32 x 16 bytes
+Procesos Máximos: 4
+TLB: 4 entradas
+Caché de Datos: 8 entradas x 4 bytes
+Algoritmo de Reemplazo: Enhanced Second Chance
+
+Proceso 0 cargó 16 instrucciones
+Proceso 0 creado desde program1.txt
+
+=== Ejecutando Procesos ===
+Thread iniciado para Proceso 0
+
+Proceso 0 iniciado
+Proceso 0 finalizado (79 instrucciones)
+
+Proceso 0 - Registros finales:
+  R0=55  R1=89  R2=10  R3=10  R4=89
+  R5=0  R6=0  R7=0  R8=13  R9=89
+
+
+=== Todos los Procesos Completados ===
+
+========================================
+       ESTADÍSTICAS DEL SISTEMA
+========================================
+
+MMU:
+  Accesos a Memoria: 13
+  Page Faults: 2
+  Tasa de Page Faults: 15.38%
+
+TLB:
+  Hits: 11
+  Misses: 2
+  Tasa de Hits: 84.62%
+
+Caché de Datos:
+  Hits: 2
+  Misses: 0
+  Tasa de Hits: 100.00%
+
+=== Estado de Memoria Física ===
+Frame | Estado | PID | VPN
+------+--------+-----+----
+    0 |  Usado |   0 |   6
+    1 |  Usado |   0 |  12
+
+Frames Libres: 30/32
+========================================
+
+Sistema terminado exitosamente
+
+
+
+[1;33mPRUEBA 2: Dos Procesos (Minimo Requerido)[0m
+
+
+Sistema de Memoria Virtual con Multiprocesamiento
+Camila Rodríguez - Yosery Zheng Lu
+Sistemas Operativos - 2025
+
+=== Sistema de Memoria Virtual Inicializado ===
+Memoria Física: 512 bytes
+Frames: 32 x 16 bytes
+Procesos Máximos: 4
+TLB: 4 entradas
+Caché de Datos: 8 entradas x 4 bytes
+Algoritmo de Reemplazo: Enhanced Second Chance
+
+Proceso 0 cargó 16 instrucciones
+Proceso 0 creado desde program1.txt
+Proceso 1 cargó 14 instrucciones
+Proceso 1 creado desde program2.txt
+
+=== Ejecutando Procesos ===
+Thread iniciado para Proceso 0
+
+Proceso 0 iniciado
+Thread iniciado para Proceso 1
+
+Proceso 1 iniciado
+Proceso 1 finalizado (34 instrucciones)
+
+Proceso 1 - Registros finales:
+  R0=6  R1=720  R2=6  R3=0  R4=0
+  R5=0  R6=0  R7=0  R8=120  R9=720
+
+Proceso 0 finalizado (79 instrucciones)
+
+Proceso 0 - Registros finales:
+  R0=55  R1=89  R2=10  R3=10  R4=89
+  R5=0  R6=0  R7=0  R8=34  R9=89
+
+
+=== Todos los Procesos Completados ===
+
+========================================
+       ESTADÍSTICAS DEL SISTEMA
+========================================
+
+MMU:
+  Accesos a Memoria: 21
+  Page Faults: 4
+  Tasa de Page Faults: 19.05%
+
+TLB:
+  Hits: 17
+  Misses: 4
+  Tasa de Hits: 80.95%
+
+Caché de Datos:
+  Hits: 4
+  Misses: 0
+  Tasa de Hits: 100.00%
+
+=== Estado de Memoria Física ===
+Frame | Estado | PID | VPN
+------+--------+-----+----
+    0 |  Usado |   0 |   6
+    1 |  Usado |   1 |   9
+    2 |  Usado |   1 |  15
+    3 |  Usado |   0 |  12
+
+Frames Libres: 28/32
+========================================
+
+Sistema terminado exitosamente
+
+
+
+[1;33mPRUEBA 3: Tres Procesos[0m
+
+
+Sistema de Memoria Virtual con Multiprocesamiento
+Camila Rodríguez - Yosery Zheng Lu
+Sistemas Operativos - 2025
+
+=== Sistema de Memoria Virtual Inicializado ===
+Memoria Física: 512 bytes
+Frames: 32 x 16 bytes
+Procesos Máximos: 4
+TLB: 4 entradas
+Caché de Datos: 8 entradas x 4 bytes
+Algoritmo de Reemplazo: Enhanced Second Chance
+
+Proceso 0 cargó 16 instrucciones
+Proceso 0 creado desde program1.txt
+Proceso 1 cargó 14 instrucciones
+Proceso 1 creado desde program2.txt
+Proceso 2 cargó 15 instrucciones
+Proceso 2 creado desde program3.txt
+
+=== Ejecutando Procesos ===
+Thread iniciado para Proceso 0
+
+Proceso 0 iniciado
+Thread iniciado para Proceso 1
+
+Proceso 1 iniciado
+Thread iniciado para Proceso 2
+
+Proceso 2 iniciado
+Proceso 1 finalizado (34 instrucciones)
+
+Proceso 1 - Registros finales:
+  R0=6  R1=720  R2=6  R3=0  R4=0
+  R5=0  R6=0  R7=0  R8=24  R9=720
+
+Proceso 0 finalizado (79 instrucciones)
+
+Proceso 0 - Registros finales:
+  R0=55  R1=89  R2=10  R3=10  R4=89
+  R5=0  R6=0  R7=0  R8=21  R9=89
+
+Proceso 2 finalizado (69 instrucciones)
+
+Proceso 2 - Registros finales:
+  R0=20  R1=90  R2=20  R3=2  R4=0
+  R5=0  R6=0  R7=90  R8=14  R9=72
+
+
+=== Todos los Procesos Completados ===
+
+========================================
+       ESTADÍSTICAS DEL SISTEMA
+========================================
+
+MMU:
+  Accesos a Memoria: 45
+  Page Faults: 7
+  Tasa de Page Faults: 15.56%
+
+TLB:
+  Hits: 37
+  Misses: 8
+  Tasa de Hits: 82.22%
+
+Caché de Datos:
+  Hits: 7
+  Misses: 0
+  Tasa de Hits: 100.00%
+
+=== Estado de Memoria Física ===
+Frame | Estado | PID | VPN
+------+--------+-----+----
+    0 |  Usado |   0 |   6
+    1 |  Usado |   1 |   9
+    2 |  Usado |   2 |  18
+    3 |  Usado |   2 |  21
+    4 |  Usado |   0 |  12
+    5 |  Usado |   2 |  25
+
+Frames Libres: 25/32
+========================================
+
+Sistema terminado exitosamente
+
+
+
+[1;33mPRUEBA 4: Cuatro Procesos (Maximo)[0m
+
+
+Sistema de Memoria Virtual con Multiprocesamiento
+Camila Rodríguez - Yosery Zheng Lu
+Sistemas Operativos - 2025
+
+=== Sistema de Memoria Virtual Inicializado ===
+Memoria Física: 512 bytes
+Frames: 32 x 16 bytes
+Procesos Máximos: 4
+TLB: 4 entradas
+Caché de Datos: 8 entradas x 4 bytes
+Algoritmo de Reemplazo: Enhanced Second Chance
+
+Proceso 0 cargó 16 instrucciones
+Proceso 0 creado desde program1.txt
+Proceso 1 cargó 14 instrucciones
+Proceso 1 creado desde program2.txt
+Proceso 2 cargó 15 instrucciones
+Proceso 2 creado desde program3.txt
+Proceso 3 cargó 24 instrucciones
+Proceso 3 creado desde program4.txt
+
+=== Ejecutando Procesos ===
+Thread iniciado para Proceso 0
+
+Proceso 0 iniciado
+Thread iniciado para Proceso 1
+
+Proceso 1 iniciado
+Thread iniciado para Proceso 2
+Thread iniciado para Proceso 3
+
+Proceso 2 iniciado
+
+Proceso 3 iniciado
+Proceso 1 finalizado (34 instrucciones)
+
+Proceso 1 - Registros finales:
+  R0=6  R1=720  R2=6  R3=0  R4=0
+  R5=0  R6=0  R7=0  R8=6  R9=720
+
+Proceso 0 finalizado (79 instrucciones)
+
+Proceso 0 - Registros finales:
+  R0=55  R1=89  R2=10  R3=10  R4=89
+  R5=0  R6=0  R7=0  R8=34  R9=89
+
+Proceso 3 finalizado (60 instrucciones)
+
+Proceso 3 - Registros finales:
+  R0=15  R1=18  R2=12  R3=21  R4=5
+  R5=10  R6=5  R7=10  R8=10  R9=0
+
+Proceso 2 finalizado (69 instrucciones)
+
+Proceso 2 - Registros finales:
+  R0=20  R1=90  R2=20  R3=2  R4=0
+  R5=0  R6=0  R7=90  R8=14  R9=72
+
+
+=== Todos los Procesos Completados ===
+
+========================================
+       ESTADÍSTICAS DEL SISTEMA
+========================================
+
+MMU:
+  Accesos a Memoria: 65
+  Page Faults: 11
+  Tasa de Page Faults: 16.92%
+
+TLB:
+  Hits: 45
+  Misses: 20
+  Tasa de Hits: 69.23%
+
+Caché de Datos:
+  Hits: 8
+  Misses: 4
+  Tasa de Hits: 66.67%
+
+=== Estado de Memoria Física ===
+Frame | Estado | PID | VPN
+------+--------+-----+----
+    0 |  Usado |   0 |   6
+    1 |  Usado |   1 |   9
+    2 |  Usado |   2 |  18
+    3 |  Usado |   1 |  15
+    4 |  Usado |   3 |  31
+    5 |  Usado |   3 |  32
+    6 |  Usado |   3 |  33
+    7 |  Usado |   0 |  12
+    8 |  Usado |   3 |  37
+    9 |  Usado |   2 |  25
+
+Frames Libres: 21/32
+========================================
+
+Sistema terminado exitosamente
+
+
+
+TODAS LAS PRUEBAS COMPLETADAS
+
+[0;32mSe ejecutaron 4 pruebas diferentes[0m
+

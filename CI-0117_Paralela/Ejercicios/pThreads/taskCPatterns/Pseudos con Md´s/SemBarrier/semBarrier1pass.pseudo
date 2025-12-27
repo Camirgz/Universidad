@@ -1,0 +1,25 @@
+procedure main()
+  // How many threads have arrived to the barrier
+  shared count := 0
+  // Protects the increment of the count
+  shared can_access_count := create_semaphore(1)
+  // Locked (0) until all threads arrive, then it is unlocked (1)
+  shared barrier := create_semaphore(0)
+  // Read thread count from standard input
+  input shared const thread_count as integer
+  // Create a thread team running secondary
+  join_threads(create_threads(thread_count, secondary))
+end procedure
+
+procedure secondary()
+  Statement A
+  // If I am the last one thread to arrive the barrier
+  wait(can_access_count) // lock
+    if ++count = thread_count then
+      signal(barrier, thread_count)
+    end if
+  signal(can_access_count) // unlock
+  // Statement B can be only executed until all threads have run Statement A
+  wait(barrier)
+  Statement B
+end procedure

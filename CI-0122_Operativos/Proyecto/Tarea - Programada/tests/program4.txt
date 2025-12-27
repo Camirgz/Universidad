@@ -1,0 +1,41 @@
+; Programa 4: Operaciones aritméticas complejas con saltos
+
+; Inicialización
+MOV R0, 15
+MOV R1, 3
+MOV R2, 7
+
+; Operación 1: Suma
+ADD R3, R0, R1     ; R3 = 15 + 3 = 18
+ST [500], R3
+
+; Operación 2: Resta
+SUB R4, R0, R1     ; R4 = 15 - 3 = 12
+ST [510], R4
+
+; Operación 3: Multiplicación
+MUL R5, R1, R2     ; R5 = 3 * 7 = 21
+ST [520], R5
+
+; Operación 4: División
+DIV R6, R0, R1     ; R6 = 15 / 3 = 5
+ST [530], R6
+
+; Loop para incrementar R7 hasta 10
+MOV R7, 0
+MOV R8, 10
+
+INCREMENT_LOOP:
+INC R7
+ST [540], R7
+CMP R7, R8
+JNE INCREMENT_LOOP
+
+; Guardar resultado final
+ST [600], R7
+LD R1, [500]       ; Leer resultado de suma
+LD R2, [510]       ; Leer resultado de resta
+LD R3, [520]       ; Leer resultado de multiplicación
+LD R4, [530]       ; Leer resultado de división
+LD R5, [600]       ; Leer resultado final del loop
+HALT

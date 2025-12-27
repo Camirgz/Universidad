@@ -1,0 +1,34 @@
+Usuario:a | Fecha:09-06-2025 09:26:37 | Accion:Login exitoso
+Usuario:a | Fecha:09-06-2025 09:26:52 | Accion:Reservo paquete: Paris, Francia del 2025-07-10 al 2025-07-17 por $2598.0
+Usuario:a | Fecha:09-06-2025 09:26:58 | Accion:Consulto sus paquetes
+Usuario:a | Fecha:09-06-2025 09:27:10 | Accion:Consulto sus reservas
+Usuario:a | Fecha:09-06-2025 09:27:15 | Accion:Consulto su perfil
+Usuario:a | Fecha:09-06-2025 09:27:24 | Accion:Consulto su historial completo
+Usuario:a | Fecha:09-06-2025 09:27:38 | Accion:Consulto su historial del 09-06-2025
+Usuario:a | Fecha:09-06-2025 09:27:46 | Accion:Cerro sesion
+Usuario:b | Fecha:09-06-2025 09:49:17 | Accion:Cerro sesion de administrador
+Usuario:a | Fecha:09-06-2025 09:49:22 | Accion:Login exitoso
+Usuario:a | Fecha:09-06-2025 09:49:33 | Accion:Consulto destinos disponibles
+Usuario:a | Fecha:09-06-2025 09:49:38 | Accion:Consulto sus paquetes
+Usuario:a | Fecha:09-06-2025 09:50:00 | Accion:Reservo paquete: Paris, Francia del 2025-07-10 al 2025-07-17 por $2598.0
+Usuario:a | Fecha:09-06-2025 09:50:03 | Accion:Consulto sus paquetes
+Usuario:a | Fecha:09-06-2025 09:50:38 | Accion:Consulto sus reservas
+Usuario:a | Fecha:09-06-2025 09:51:02 | Accion:Consulto sus reseñas
+Usuario:a | Fecha:09-06-2025 09:51:08 | Accion:Consulto su historial completo
+Usuario:a | Fecha:09-06-2025 09:51:22 | Accion:Cerro sesion
+Usuario:a | Fecha:09-06-2025 10:16:30 | Accion:Login exitoso
+Usuario:a | Fecha:09-06-2025 10:16:34 | Accion:Consulto sus paquetes
+Usuario:a | Fecha:09-06-2025 10:16:47 | Accion:Reservo paquete: Paris, Francia del 2025-07-10 al 2025-07-17 por $2598.0
+Usuario:a | Fecha:09-06-2025 10:16:54 | Accion:Consulto sus paquetes
+Usuario:a | Fecha:09-06-2025 10:23:16 | Accion:Login exitoso
+Usuario:a | Fecha:09-06-2025 10:23:18 | Accion:Consulto sus paquetes
+Usuario:a | Fecha:09-06-2025 10:23:33 | Accion:Consulto sus reservas
+Usuario:a | Fecha:09-06-2025 10:26:36 | Accion:Cerro sesion
+Usuario:a | Fecha:09-06-2025 10:27:25 | Accion:Login exitoso
+Usuario:a | Fecha:09-06-2025 10:27:28 | Accion:Consulto sus paquetes
+Usuario:a | Fecha:09-06-2025 10:27:32 | Accion:Consulto sus reservas
+Usuario:a | Fecha:09-06-2025 10:27:37 | Accion:Cerro sesion
+Usuario:a | Fecha:09-06-2025 10:34:27 | Accion:Login exitoso
+Usuario:a | Fecha:09-06-2025 10:34:40 | Accion:Eliminó reserva con ID: 6
+Usuario:a | Fecha:09-06-2025 10:35:02 | Accion:Consulto su historial completo
+Usuario:a | Fecha:09-06-2025 10:35:06 | Accion:Cerro sesion

@@ -1,0 +1,141 @@
+Creando arrays ...
+Creando array de 1000 elementos.
+Creando array de 10000 elementos.
+Creando array de 100000 elementos.
+Creando array de 1000000 elementos.
+Ejecutando algoritmos... 
+
+
+ ===== Ejecutando algoritmo: Seleccion =====
+--- Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de seleccion: 0 min 0 s, 1404 microsegundos 
+ 
+--- Diez Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de seleccion: 0 min 0 s, 128352 microsegundos 
+ 
+--- Cien Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de seleccion: 0 min 12 s, 12085838 microsegundos 
+ 
+--- Un Millón de Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de seleccion: 19 min 57 s, 1197954780 microsegundos 
+ 
+
+ ===== Ejecutando algoritmo: Inserccion =====
+--- Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de insercion: 0 min 0 s, 803 microsegundos 
+ 
+--- Diez Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de insercion: 0 min 0 s, 71655 microsegundos 
+ 
+--- Cien Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de insercion: 0 min 6 s, 6311250 microsegundos 
+ 
+--- Un Millón de Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de insercion: 10 min 50 s, 650494407 microsegundos 
+ 
+
+ ===== Ejecutando algoritmo: Mezcla =====
+--- Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de mezcla: 0 min 0 s, 163 microsegundos 
+ 
+--- Diez Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de mezcla: 0 min 0 s, 1476 microsegundos 
+ 
+--- Cien Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de mezcla: 0 min 0 s, 15739 microsegundos 
+ 
+--- Un Millón de Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de mezcla: 0 min 0 s, 184576 microsegundos 
+ 
+
+ ===== Ejecutando algoritmo: Monticulos =====
+--- Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de monticulos: 0 min 0 s, 191 microsegundos 
+ 
+--- Diez Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de monticulos: 0 min 0 s, 2289 microsegundos 
+ 
+--- Cien Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de monticulos: 0 min 0 s, 26795 microsegundos 
+ 
+--- Un Millón de Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de monticulos: 0 min 0 s, 327906 microsegundos 
+ 
+
+ ===== Ejecutando algoritmo: Rapido =====
+--- Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de quicksort: 0 min 0 s, 123 microsegundos 
+ 
+--- Diez Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de quicksort: 0 min 0 s, 2140 microsegundos 
+ 
+--- Cien Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de quicksort: 0 min 0 s, 133103 microsegundos 
+ 
+--- Un Millón de Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de quicksort: 0 min 12 s, 12590144 microsegundos 
+ 
+
+ ===== Ejecutando algoritmo: Residuos =====
+--- Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de radix sort: 0 min 0 s, 115 microsegundos 
+ 
+--- Diez Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de radix sort: 0 min 0 s, 725 microsegundos 
+ 
+--- Cien Mil Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de radix sort: 0 min 0 s, 6676 microsegundos 
+ 
+--- Un Millón de Elementos ---
+El array no está ordenado.
+El array está ordenado.
+Tiempo de radix sort: 0 min 0 s, 67159 microsegundos 
+ 
+Liberando memoria...
+Memoria liberada.

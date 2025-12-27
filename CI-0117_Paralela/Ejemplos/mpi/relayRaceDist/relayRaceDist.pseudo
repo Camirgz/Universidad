@@ -1,0 +1,24 @@
+procedure main(argc, argv[]):
+  if argc = 3 then
+    if process_count >= 2 then
+      declare constant team_count = div(process_count, 2)
+      declare constant stage1_delay = integer(argv[1])
+      declare constant stage2_delay = integer(argv[2])
+
+      run_stage1(stage1_delay, process_number, team_count)
+      run_stage2(stage2_delay, process_number, team_count)
+    else
+      print "error: two or more of processes required"
+    end if
+  else
+    print "usage: relay_race_dist stage1_delay stage2_delay"
+  end if
+end procedure
+
+procedure run_stage1(stage1_delay, process_number, team_count):
+  delay(stage1_delay)
+end function
+
+procedure run_stage2(stage2_delay, process_number, team_count):
+  delay(stage2_delay)
+end procedure

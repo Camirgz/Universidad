@@ -1,0 +1,38 @@
+procedure main()
+  shared count := 0
+  shared mutex := semaphore(1)        // Protege el contador
+  shared turnstile_in := semaphore(0) // Torniquete de entrada (bloqueado)
+  shared turnstile_out := semaphore(1)// Torniquete de salida (abierto inicialmente)
+  input shared const thread_count
+  create_threads(thread_count, secondary)
+end procedure
+
+procedure secondary()
+  while true do
+    Statement A
+
+    // Fase 1: Llegada a la barrera
+    wait(mutex)
+      if ++count = thread_count then
+        wait(turnstile_out)    // Cierra salida para la próxima ronda
+        signal(turnstile_in)   // Abre entrada (permite pasar a todos)
+      end if
+    signal(mutex)
+
+    wait(turnstile_in)        // Espera en el torniquete de entrada
+    signal(turnstile_in)      // Pasa y permite al siguiente
+
+    Statement B
+
+    // Fase 2: Salida de la barrera
+    wait(mutex)
+      if --count = 0 then
+        wait(turnstile_in)    // Cierra entrada para la próxima ronda
+        signal(turnstile_out) // Abre salida (permite reiniciar)
+      end if
+    signal(mutex)
+
+    wait(turnstile_out)       // Espera en el torniquete de salida
+    signal(turnstile_out)     // Pasa y permite al siguiente
+  end while
+end procedure

@@ -1,0 +1,46 @@
+= Repartir y mapear las iteraciones
+:experimental:
+:nofooter:
+:source-highlighter: pygments
+:sectnums:
+:stem: latexmath
+:toc:
+:xrefstyle: short
+
+
+[[problem_statement]]
+== Enunciado del problema
+
+Utilice tareas de OpenMP para paralelizar el algoritmo _mergesort_ provisto
+
+****
+OpenMP permite fácilmente repartir las iteraciones de ciclos por contador (`for` estructurados). Sin embargo, los ciclos por contador no son la única forma de repetición que podría necesitarse paralelizar, también existen ciclos por condición (`while` y `for` no estructurados) y la recursión (ej.: el recorrido por una lista o árbol). Para poder paralelizar este tipo de repeticiones, OpenMP v3 introdujo el concepto de *tareas* y OpenMP v4 *grupos de tareas*.
+
+Dentro de una región paralela, algunos o todos los hilos pueden crear tareas siempre y cuando sean independientes entre sí. Las tareas se ejecutarán luego en cualquier orden. Cada vez que un hilo encuentre una directiva `#pragma omp task`, el hilo creará una tarea y la pondrá en una cola para su ejecución posterior. Cuando un hilo llega al final de la región paralela, sacará repetitivamente tareas de la cola y las ejecutará. Las tareas pueden crear otras tareas que serán también colocadas al final de la cola. Una vez que la cola esté vacía, ya no quedará trabajo pendiente en la región paralela y el hilo se destruirá (_join_).
+****
+
+
+
+[[user_manual]]
+== User manual
+
+[[build]]
+=== Build
+
+Use one of the following:
+
+- Run `make` to build an executable for debugging.
+- Run `make release` to build an optimized executable.
+
+[[usage]]
+=== Usage
+
+Usage: `bin/mergesort [count] [threads] [verbose]`
+
+If run with no command line arguments, the program will sort the values given by standard input and printed to standard output separated by spaces.
+
+If the `count` argument is provided, a random vector of count pseudo-random elements is created and sorted, no output is generated unless the `verbose` argument is provided with value `1`.
+
+If `threads` argument is provided, the vector will be sorted in parallel for that number of threads, otherwise the number of available CPU will be used.
+
+If `verbose` is `0`, no output is generated at all (quiet), useful for benchmarking. Value `1` stands for verbose mode.

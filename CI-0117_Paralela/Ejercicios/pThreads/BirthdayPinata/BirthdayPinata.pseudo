@@ -1,0 +1,55 @@
+Estructuras de  
+
+Piñata {  
+    int GolpesMaximos;  
+    int GolpesDados;  
+    int GolpesRestantes;  
+    int CantidadHilos;  
+    Mutex bloqueo;  
+}  
+
+Hilo {  
+    int id;  
+    int GolpesDados;  
+    int GolpesMaximosPosibles;  
+    Referencia a Piñata;  
+}  
+
+main {  
+    verificar argumentos;  
+    inicializar generador de números aleatorios;  
+    crear Piñata con los valores dados;  
+}  
+
+crear Piñata {  
+    asignar atributos al struct;  
+    inicializar mutex;  
+    crear hilos;  
+}  
+
+creador de hilos (Piñata) {  
+    para cada hilo:  
+        inicializar estructura Hilo con id y referencia a la piñata;  
+        crear hilo y ejecutar función golpear_piñata;  
+    esperar a que todos los hilos terminen;  
+    destruir mutex;  
+}  
+
+golpear_piñata (Referencia a Hilo) {  
+    mientras la piñata no esté rota {  
+        bloquear acceso a la piñata;  
+        si la piñata aún tiene golpes restantes {  
+            generar número aleatorio entre 1 y golpes restantes;  
+            restar golpes a la piñata;  
+            actualizar contador del hilo;  
+            si la piñata se rompe, imprimir quién la rompió;  
+        }  
+        desbloquear acceso a la piñata;  
+        esperar un tiempo aleatorio para simular la variabilidad de golpes;  
+    }  
+    imprimir los golpes dados por el hilo;  
+}  
+
+int generar num Aleatorio(inicio, final) {  
+    devolver un número aleatorio entre inicio y final;  
+}  

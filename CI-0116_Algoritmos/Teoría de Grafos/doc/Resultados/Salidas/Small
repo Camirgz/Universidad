@@ -1,0 +1,137 @@
+
+Cargando datos desde: tests/input_small.csv
+Datos cargados exitosamente.
+Ciudades en el sistema: 10
+Procesando grafo y calculando rutas óptimas...
+Análisis completado. 
+
+=== Sistema Nacional de Tipificación de Emergencias Potenciales ===
+Bienvenido al sistema SiNTiEmPo
+
+
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+============== CENTRO DE DISTRIBUCIÓN ÓPTIMO ==============
+Calculando el centro más efectivo para distribución...
+
+--- RESULTADO ---
+Centro(s) de distribución más efectivo(s):
+- San Juan de Dios
+Tiempo total de distribución: 87 unidades
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+============= MEJOR CIUDAD PARA DESPACHO =================
+Ingrese el nombre de la ciudad objetivo: Calculando la mejor ciudad para despachar hacia Parrita...
+
+--- RESULTADO ---
+Mejor(es) ciudad(es) para despacho:
+- Los Guido
+Tiempo de viaje: 11 unidades
+Ruta a seguir: Los Guido -> Parrita
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+============== CIUDADES MÁS DISTANTES ==================
+Calculando el par de ciudades más distantes...
+
+--- RESULTADO ---
+Par(es) de ciudades más distantes:
+- Parrita -> Zapotal
+Distancia máxima: 42 unidades
+Ruta del primer par: Parrita -> Quebradilla -> Puerto Carrillo -> San Juan de Dios -> Mata Redonda -> Zapotal
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+============== CIUDADES MENOS DISTANTES ================
+Calculando el par de ciudades menos distantes...
+
+--- RESULTADO ---
+Par(es) de ciudades menos distantes:
+- San Juan de Dios -> Quebradilla
+- San Juan de Dios -> Mata Redonda
+Distancia mínima: 2 unidades
+Ruta del primer par: San Juan de Dios -> Quebradilla
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+========== RANKING POR TIEMPO PROMEDIO =================
+Calculando ranking de ciudades por tiempo promedio...
+
+Ranking de ciudades (orden creciente por tiempo promedio):
+------------------------------------------------------------
+Ciudad                   Tiempo Promedio     
+------------------------------------------------------------
+San Juan de Dios         9.67
+Mata Redonda             11.33
+Puerto Carrillo          11.67
+Los Guido                12.00
+Venado                   14.22
+Zapotal                  15.33
+Jaris                    15.44
+Valle La Estrella        18.56
+Quebradilla              21.56
+Parrita                  25.33
+------------------------------------------------------------
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: Gracias por usar el sistema SiNTiEmPo

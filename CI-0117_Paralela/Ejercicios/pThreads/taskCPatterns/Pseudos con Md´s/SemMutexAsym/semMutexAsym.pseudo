@@ -1,0 +1,18 @@
+procedure main()
+  shared count := 0
+  shared can_access_count := semaphore(1) // mutex()
+  create_thread(thread_a)
+  create_thread(thread_b)
+end procedure
+
+procedure thread_a()
+  wait(can_access_count)  
+  count := count + 1
+  signal(can_access_count)
+end procedure
+
+procedure thread_b()
+  wait(can_access_count)  
+  count := count + 1
+  signal(can_access_count)
+end procedure

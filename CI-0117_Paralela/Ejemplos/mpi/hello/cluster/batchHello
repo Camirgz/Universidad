@@ -1,0 +1,18 @@
+#!/bin/bash
+
+### Archivo de ejecucion de trabajos de slurm(sistema de colas)
+
+#SBATCH --overcommit          # Run more jobs than the defined in SLURM nodes
+#SBATCH -J hello              # Job name
+#SBATCH -o job.%j.out         # Name of stdout output file (%j expands to jobId)
+#SBATCH -N 2                  # Total number of nodes requested
+#SBATCH -n 16                 # Total number of mpi tasks requested
+#SBATCH -t 00:30:00           # Run time (hh:mm:ss) - 30 min
+#SBATCH -p normal             # Partition to use, can be: debug, normal
+
+# Launch MPI-based executable
+
+mpiexec -n 16 ./wrapper  # aqui va el programa que quiere correr, compilado en su formato distribuido.
+
+# ¿Como correr?
+# sbatch batch-job-example.mpi 

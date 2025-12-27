@@ -1,0 +1,11 @@
+procedure main()
+  input const skater_count, const room_capacity
+  shared can_skate := semaphore(room_capacity)  // Semáforo inicializado con la capacidad máxima
+  create_threads(skater_count, skater)          // Crea todos los hilos (patinadores)
+end procedure
+
+procedure skater()
+  wait(can_skate)  // Decrementa el contador (si es 0, bloquea)
+    skate()        // Sección de concurrencia acotada (máximo `room_capacity` hilos aquí)
+  signal(can_skate) // Libera un espacio (incrementa el contador)
+end procedure

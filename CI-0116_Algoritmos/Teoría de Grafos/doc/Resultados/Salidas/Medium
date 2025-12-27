@@ -1,0 +1,1969 @@
+
+Cargando datos desde: tests/input_medium.csv
+Datos cargados exitosamente.
+Ciudades en el sistema: 244
+Procesando grafo y calculando rutas óptimas...
+Análisis completado. 
+
+=== Sistema Nacional de Tipificación de Emergencias Potenciales ===
+Bienvenido al sistema SiNTiEmPo
+
+
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+============== CENTRO DE DISTRIBUCIÓN ÓPTIMO ==============
+Calculando el centro más efectivo para distribución...
+
+--- RESULTADO ---
+Centro(s) de distribución más efectivo(s):
+- Paquera
+Tiempo total de distribución: 611 unidades
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+============= MEJOR CIUDAD PARA DESPACHO =================
+Ingrese el nombre de la ciudad objetivo: Calculando la mejor ciudad para despachar hacia Pocora...
+
+--- RESULTADO ---
+Mejor(es) ciudad(es) para despacho:
+- San Juan Arriba
+- Volcán
+- Colorado
+Tiempo de viaje: 1 unidades
+Ruta a seguir: San Juan Arriba -> Pocora
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+============== CIUDADES MÁS DISTANTES ==================
+Calculando el par de ciudades más distantes...
+
+--- RESULTADO ---
+Par(es) de ciudades más distantes:
+- Matina -> Pocora
+- Matina -> Bahía Ballena
+- Matina -> Turrúcares
+- Matina -> Duacarí
+- Matina -> San Isidro Labrador
+- Matina -> Germania
+- Matina -> Cabo Velas
+- Matina -> Las Horquetas
+- Matina -> Tres Equis
+- Matina -> Volcán
+- Matina -> Puntarenas
+- Matina -> Varablanca
+- Matina -> Santo Domingo
+- Matina -> El Cairo
+- Matina -> Porvenir
+- Matina -> Paquera
+- Matina -> San Carlos
+- Matina -> Legua
+- Matina -> Chires
+- Matina -> La Victoria
+- Matina -> San Rafael Oeste
+- Matina -> Venado
+- Matina -> San Rafael Norte
+- Matina -> Aguas Zarcas
+- Matina -> Siquirres
+- Matina -> Diriá
+- Matina -> San Rafael Sur
+- Matina -> Pocosol
+- Matina -> La Colonia
+Distancia máxima: 12 unidades
+Ruta del primer par: Matina -> Hojancha -> Santiago Nuevo -> Acapulco -> San Juan Arriba -> Pocora
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+============== CIUDADES MENOS DISTANTES ================
+Calculando el par de ciudades menos distantes...
+
+--- RESULTADO ---
+Par(es) de ciudades menos distantes:
+- Pocora -> Hojancha
+- Pocora -> Isla del Coco
+- Pocora -> Garita
+- Pocora -> Daniel Flores
+- Pocora -> Juan Viñas
+- Pocora -> Savegre
+- Pocora -> Barbacoas
+- Pocora -> San Ignacio
+- Hojancha -> Río Blanco
+- Hojancha -> Pavas
+- Hojancha -> Santiago Nuevo
+- Hojancha -> Santiago Puriscal
+- Hojancha -> Tabarcia
+- Hojancha -> Pejibayes
+- Hojancha -> Liberia
+- Hojancha -> Río Jiménez
+- Golfito -> Isla del Coco
+- Golfito -> Palmares
+- Golfito -> Frailes
+- Golfito -> Tuis
+- Golfito -> Tacares
+- Bahía Ballena -> Dos Ríos
+- Bahía Ballena -> Santiago Poás
+- Bahía Ballena -> Matambú
+- Bahía Ballena -> Manzanillo
+- Bahía Ballena -> Quepos
+- Bahía Ballena -> El Cairo
+- Bahía Ballena -> Rincón de Sabanilla
+- Tambor -> Monte Romo
+- Tambor -> Bolsón
+- Tambor -> Sabalito
+- Tambor -> Cartagena
+- Tambor -> San Isidro Abajo
+- Tambor -> Puntarenas
+- Tambor -> Legua
+- Tambor -> Aguacaliente
+- Patio de Agua -> Monte Romo
+- Patio de Agua -> Juan Viñas
+- Patio de Agua -> Heredia
+- San Rafael Piedades -> Tobosi
+- San Rafael Piedades -> Palmitos
+- San Rafael Piedades -> Aguas Claras
+- San Rafael Piedades -> Santiago Nuevo
+- San Rafael Piedades -> Telire
+- San Rafael Piedades -> San Ignacio
+- San Rafael Piedades -> San Juan Norte
+- San Rafael Piedades -> Dulce Nombre Este
+- San Rafael Parrita -> La Unión
+- San Rafael Parrita -> Palmiralito
+- San Rafael Parrita -> Volcán
+- San Rafael Parrita -> Barranca
+- San Rafael Parrita -> Cuajiniquil
+- San Rafael Parrita -> Río Jiménez
+- San Rafael Parrita -> San Juan Grande
+- San Rafael Parrita -> Florencia
+- San Rafael Parrita -> Santiago Oeste
+- San Rafael Parrita -> Tacares
+- San Miguel Viejo -> Dulce Nombre de Jesús
+- San Miguel Viejo -> Bolívar
+- San Miguel Viejo -> Mercedes Abajo
+- San Miguel Viejo -> San Felipe
+- San Miguel Viejo -> Paracito
+- San Miguel Viejo -> San Isidro Este
+- San Miguel Viejo -> Santiago Oeste
+- San Miguel Viejo -> Piedades Norte
+- San Miguel Viejo -> Monte Verde
+- San Juan Arriba -> Pocora
+- San Juan Arriba -> San Rafael Parrita
+- San Juan Arriba -> Patarrá
+- San Juan Arriba -> Chomes
+- San Juan Arriba -> Mercedes Abajo
+- San Juan Arriba -> Barbacoas
+- San Juan Arriba -> La Buenavista
+- San Juan Arriba -> San Rafael Norte
+- San Juan Arriba -> Aguas Zarcas
+- Cañas Dulces -> San Rafael Parrita
+- Cañas Dulces -> Cirrí Sur
+- Cañas Dulces -> San Pablo Arriba
+- Cañas Dulces -> Guadalupe Este
+- Cañas Dulces -> Santa Elena
+- Cañas Dulces -> Sarchí Norte
+- Turrúcares -> Isla del Coco
+- Turrúcares -> Monte Romo
+- Turrúcares -> Jesús Piedad
+- Turrúcares -> Llanuras del Gaspar
+- Turrúcares -> Dulce Nombre de Jesús
+- Turrúcares -> Paquera
+- Turrúcares -> San Isidro Este
+- Turrúcares -> La Cuesta
+- Turrúcares -> Piedades Norte
+- Isla del Coco -> Puerto Carrillo
+- Isla del Coco -> La Suiza
+- Isla del Coco -> Colorado
+- Isla del Coco -> San José Este
+- Isla del Coco -> San Francisco Arriba
+- Isla del Coco -> Corralillo
+- Monte Romo -> Golfito
+- Monte Romo -> Tambor
+- Monte Romo -> Atenas
+- Monte Romo -> Heredia
+- Monte Romo -> Tabarcia
+- Monte Romo -> Cuajiniquil
+- Monte Romo -> Sierpe
+- Río Blanco -> San Rafael Piedades
+- Río Blanco -> Grifo Alto
+- Río Blanco -> Sarapiquí
+- Río Blanco -> Los Guido
+- Río Blanco -> Dulce Nombre de Jesús
+- Río Blanco -> Canalete
+- Río Blanco -> Tures
+- Río Blanco -> Delicias
+- Río Blanco -> Santa Isabel
+- Río Blanco -> Piedades Norte
+- Grifo Alto -> Hojancha
+- Grifo Alto -> Santiago Oeste
+- Grifo Alto -> San Rafael Arriba
+- Acapulco -> San Juan Arriba
+- Acapulco -> San Pedro Antiguo
+- Acapulco -> Mayorga
+- Hacienda Vieja -> Santiago Puriscal
+- Hacienda Vieja -> Dulce Nombre Oeste
+- Hacienda Vieja -> Mayorga
+- Hacienda Vieja -> Pittier
+- Hacienda Vieja -> Santa Cruz Sur
+- Hacienda Vieja -> Florencia
+- Hacienda Vieja -> Monterrey Arriba
+- Dos Ríos -> Golfito
+- Dos Ríos -> Catedral
+- Dos Ríos -> Santa Rosa Nuevo
+- Dos Ríos -> San Roque
+- Dos Ríos -> La Buenavista
+- Dos Ríos -> Guadalupe Este
+- Dos Ríos -> Siquirres
+- Tobosi -> Cabeceras
+- Tobosi -> San Isidro Abajo
+- Tobosi -> Pilas
+- Tobosi -> Delicias
+- Tobosi -> Savegre
+- Candelaria -> San Rafael Piedades
+- Candelaria -> Chomes
+- Candelaria -> Quepos
+- Candelaria -> Tabarcia
+- Candelaria -> San Rafael Nuevo
+- Candelaria -> Santa Bárbara
+- Candelaria -> Cinco Esquinas
+- Candelaria -> Corralillo
+- Zapotal -> Pavas
+- Zapotal -> Bijagua
+- Zapotal -> San Pablo Arriba
+- Zapotal -> Mayorga
+- Zapotal -> Cuajiniquil
+- Zapotal -> Santa Elena
+- Zapotal -> Monte Verde
+- Duacarí -> Cañas Dulces
+- Duacarí -> Rancho Redondo
+- Duacarí -> San Isidro de El General
+- Duacarí -> Santiago Nuevo
+- Duacarí -> Río Azul
+- Duacarí -> Esquipulas
+- Duacarí -> Santa Isabel
+- Duacarí -> San Francisco de Dos Ríos
+- Duacarí -> Laurel
+- Duacarí -> Dulce Nombre Este
+- Duacarí -> Monterrey Arriba
+- Sarapiquí -> Cañas Dulces
+- Sarapiquí -> Santa Rosa Viejo
+- Sarapiquí -> Tempate
+- Sarapiquí -> La Trinidad
+- Sarapiquí -> Mercedes Abajo
+- Sarapiquí -> Frailes
+- Sarapiquí -> Tucurrique
+- Sarapiquí -> Laurel
+- Sarapiquí -> Rita
+- Sarapiquí -> Zaragoza
+- Bolsón -> Santiago Nuevo
+- Bolsón -> Chirripó
+- Bolsón -> Juan Viñas
+- Bolsón -> Dulce Nombre Oeste
+- Bolsón -> La Buenavista
+- Pavas -> Isla del Coco
+- Pavas -> Veintisiete de Abril
+- Pavas -> Pará
+- Pavas -> El Mastate
+- Rancho Redondo -> San Rafael Piedades
+- Rancho Redondo -> Acapulco
+- Rancho Redondo -> Matama
+- Rancho Redondo -> San Rafael Nuevo
+- Rancho Redondo -> La Victoria
+- Rancho Redondo -> Concepción Arriba
+- Atenas -> Bebedero
+- Atenas -> Lagunillas
+- Atenas -> Paquera
+- Atenas -> La Buenavista
+- Quebrada Honda -> Tobosi
+- Bijagua -> Pavas
+- Bijagua -> Germania
+- Bijagua -> Santiago Puriscal
+- Bijagua -> Guácimo
+- Bijagua -> Puntarenas
+- Bijagua -> San Rafael Nuevo
+- Bijagua -> Chires
+- Bijagua -> San Sebastián
+- Los Guido -> Chomes
+- Los Guido -> La Trinidad
+- Los Guido -> Escazú
+- Los Guido -> Santa Bárbara
+- Patarrá -> Aguas Claras
+- Patarrá -> San Pablo Este
+- Patarrá -> Puerto Jiménez
+- Granadilla -> Dos Ríos
+- Granadilla -> Buenos Aires
+- Granadilla -> La Victoria
+- Santiago Poás -> Atenas
+- Santiago Poás -> Santa Rosa Abajo
+- Santiago Poás -> Palmares
+- Santiago Poás -> Dulce Nombre de Jesús
+- Santiago Poás -> Naranjo
+- Santiago Poás -> Esquipulas
+- Santiago Poás -> Birrisito
+- Santiago Poás -> Florencia
+- Santiago Poás -> La Cuesta
+- Santiago Poás -> Monterrey Arriba
+- Catedral -> Patalillo
+- Catedral -> Bebedero
+- Catedral -> Buenos Aires
+- Catedral -> San Ignacio
+- Piedras Negras -> Atenas
+- Piedras Negras -> Guacimal
+- Piedras Negras -> San Isidro de El General
+- Piedras Negras -> Los Ángeles
+- Santa Rosa Viejo -> Duacarí
+- Santa Rosa Viejo -> Granadilla
+- Santa Rosa Viejo -> Tucurrique
+- Santa Rosa Viejo -> Uruca
+- Santa Rosa Viejo -> Zapote
+- Santa Rosa Viejo -> Limoncito
+- Santa Rosa Viejo -> Laurel
+- Santa Rosa Viejo -> Sarchí Norte
+- Santa Rosa Viejo -> San Rafael Arriba
+- Nosara -> Isla del Coco
+- Nosara -> Candelaria
+- Nosara -> Palmares
+- Nosara -> Dulce Nombre Oeste
+- Nosara -> Varablanca
+- Nosara -> El Roble
+- Nosara -> San Nicolás
+- Nosara -> Pacuarito
+- Nosara -> Diriá
+- Nosara -> San Rafael Arriba
+- Chomes -> Aguas Claras
+- Chomes -> Santa Cruz
+- Chomes -> La Asunción
+- Chomes -> Guadalupe Este
+- Chomes -> San Rafael Oeste
+- Garita -> Duacarí
+- Garita -> Palmitos
+- Garita -> Chirripó
+- Garita -> Canalete
+- Garita -> La Victoria
+- San José Norte -> San Rafael Parrita
+- San José Norte -> Veintisiete de Abril
+- San José Norte -> Río Azul
+- San José Norte -> Tres Equis
+- San José Norte -> Porvenir
+- San José Norte -> La Asunción
+- San José Norte -> Puerto Viejo
+- Santa Rosa Abajo -> Hacienda Vieja
+- Santa Rosa Abajo -> Veintisiete de Abril
+- Santa Rosa Abajo -> Guacimal
+- Santa Rosa Abajo -> Las Horquetas
+- Santa Rosa Abajo -> San Pablo Arriba
+- Santa Rosa Abajo -> Santa Rosa Nuevo
+- Santa Rosa Abajo -> El Cairo
+- Santa Rosa Abajo -> Pacuarito
+- Santa Rosa Abajo -> Jesús
+- Santa Rosa Abajo -> Sabanillal
+- Santa Rosa Abajo -> San Vicente
+- Veintisiete de Abril -> Santa Rosa Viejo
+- Veintisiete de Abril -> Santa Rosa Abajo
+- Veintisiete de Abril -> Santiago
+- Veintisiete de Abril -> La Suiza
+- Veintisiete de Abril -> Roxana
+- Veintisiete de Abril -> Barbacoas
+- Florida -> Ulloa
+- Florida -> San Gabriel
+- Florida -> Santa Isabel
+- Florida -> San Vicente Norte
+- Florida -> Sierpe
+- Florida -> Venado
+- Florida -> Siquirres
+- Jesús Piedad -> San Miguel Viejo
+- Jesús Piedad -> Sabalito
+- Jesús Piedad -> Guácimo
+- Jesús Piedad -> Ulloa
+- San Rafael Viejo -> Hojancha
+- San Rafael Viejo -> Golfito
+- San Rafael Viejo -> Turrúcares
+- San Rafael Viejo -> Patarrá
+- San Rafael Viejo -> Bolívar
+- San Rafael Viejo -> San Rafael Nuevo
+- Daniel Flores -> Patio de Agua
+- Daniel Flores -> Isla del Coco
+- Daniel Flores -> El Ángel
+- Daniel Flores -> San Pablo Este
+- Daniel Flores -> San Ignacio
+- Daniel Flores -> Guadalupe Oeste
+- Palmitos -> Caldera
+- Palmitos -> Sierpe
+- Patalillo -> San Rafael Parrita
+- Patalillo -> Santiago Puriscal
+- Patalillo -> Juan Viñas
+- Patalillo -> San Nicolás
+- Patalillo -> Santa Elena
+- Patalillo -> Puerto Viejo
+- Sabalito -> Yolillal
+- Sabalito -> Laurel
+- Sabalito -> Siquirres
+- Sabalito -> Aguacaliente
+- San Isidro Labrador -> Duacarí
+- San Isidro Labrador -> Atenas
+- San Isidro Labrador -> Quebrada Honda
+- San Isidro Labrador -> Nosara
+- San Isidro Labrador -> Guacimal
+- San Isidro Labrador -> Tres Equis
+- San Isidro Labrador -> Frailes
+- San Isidro Labrador -> San Felipe
+- San Isidro Labrador -> Palmar
+- San Isidro Labrador -> Buenos Aires
+- San Isidro Labrador -> Sierpe
+- San Isidro Labrador -> Santo Tomás
+- Guacimal -> San Rafael Parrita
+- Guacimal -> Zapotal
+- Guacimal -> San Isidro Abajo
+- Guacimal -> Pará
+- Guacimal -> San Pablo Este
+- Guacimal -> Candelarita
+- Guacimal -> Turrialba
+- Guacimal -> Limoncito
+- Guacimal -> Tarbaca
+- Guacimal -> Rivas
+- Guacimal -> San Francisco Norte
+- Matambú -> Piedras Negras
+- Matambú -> Santa Rosa Abajo
+- Matambú -> La Buenavista
+- Matambú -> Paracito
+- Matambú -> San Rafael Abajo
+- San Isidro de El General -> Quebrada Honda
+- San Isidro de El General -> Daniel Flores
+- San Isidro de El General -> La Unión
+- San Isidro de El General -> Cutris
+- San Isidro de El General -> Palmira
+- San Isidro de El General -> Sarchí Norte
+- San Isidro de El General -> San Rafael Arriba
+- Germania -> Laguna
+- Germania -> Escazú
+- Germania -> Sierpe
+- Germania -> Florencia
+- Germania -> Tuis
+- Llanuras del Gaspar -> San Juan Arriba
+- Llanuras del Gaspar -> Garita
+- Llanuras del Gaspar -> Bebedero
+- Llanuras del Gaspar -> Pitahaya
+- Llanuras del Gaspar -> San Vicente Norte
+- Llanuras del Gaspar -> San Lorenzo
+- Llanuras del Gaspar -> Santa Cruz Sur
+- Llanuras del Gaspar -> Rita
+- Llanuras del Gaspar -> Guadalupe Oeste
+- Llanuras del Gaspar -> Sarchí Norte
+- Llanuras del Gaspar -> San José Abajo
+- Manzanillo -> Río Cuarto
+- Manzanillo -> Tuis
+- Manzanillo -> El Mastate
+- Aguas Claras -> Catedral
+- Aguas Claras -> Manzanillo
+- Aguas Claras -> Río Azul
+- Aguas Claras -> Pitahaya
+- Aguas Claras -> El Roble
+- Aguas Claras -> Labrador
+- Aguas Claras -> Brisas
+- Cabo Velas -> Esquipulas
+- Cabo Velas -> Corralillo
+- Cabo Velas -> Monterrey Arriba
+- Santiago Nuevo -> Acapulco
+- Santiago Nuevo -> Patalillo
+- Santiago Nuevo -> Aguas Claras
+- Santiago Nuevo -> San Jerónimo Arriba
+- Santiago Nuevo -> Palmiralito
+- Santiago Nuevo -> Cutris
+- Santiago Nuevo -> Laguna
+- Santiago Nuevo -> Salitral
+- Santiago Nuevo -> San Rafael Abajo
+- Río Azul -> Zapotal
+- Río Azul -> San Marcos
+- Río Azul -> La Trinidad
+- Río Azul -> Telire
+- Río Azul -> Matama
+- Río Azul -> San Rafael Nuevo
+- Río Azul -> Chires
+- Río Azul -> Escazú
+- Río Azul -> Paracito
+- Río Azul -> San Rafael Arriba
+- Río Azul -> Monterrey Arriba
+- San Jerónimo Arriba -> Candelaria
+- San Jerónimo Arriba -> Santiago Poás
+- San Jerónimo Arriba -> Santa Rosa Viejo
+- San Jerónimo Arriba -> San José Norte
+- San Jerónimo Arriba -> Cartagena
+- San Jerónimo Arriba -> Los Chiles
+- San Jerónimo Arriba -> San Roque
+- San Jerónimo Arriba -> Carrillos
+- San Jerónimo Arriba -> Tarbaca
+- Bebedero -> Tres Equis
+- Bebedero -> Cuajiniquil
+- Bebedero -> Rita
+- Limón -> Pavas
+- Limón -> Santa Rosa Viejo
+- Limón -> Matambú
+- Limón -> Cartagena
+- Limón -> Cirrí Sur
+- Limón -> Pitahaya
+- Limón -> Santo Domingo
+- Limón -> Aguacaliente
+- Palmares -> Santiago Poás
+- Palmares -> San Ignacio
+- Palmares -> Jesús María
+- Cartagena -> San Juan Arriba
+- Cartagena -> Río Cuarto
+- Cartagena -> Los Ángeles
+- Cartagena -> Zapote
+- Cartagena -> Aguacaliente
+- Chirripó -> Patio de Agua
+- Chirripó -> Zapotal
+- Chirripó -> Dulce Nombre Oeste
+- Chirripó -> Labrador
+- Chirripó -> Santa Isabel
+- Chirripó -> Jesús
+- Chirripó -> La Colonia
+- Puerto Carrillo -> Grifo Alto
+- Puerto Carrillo -> Daniel Flores
+- Puerto Carrillo -> Quepos
+- Puerto Carrillo -> Venado
+- Puerto Carrillo -> Puerto Viejo
+- Capellades -> Tambor
+- Capellades -> Chomes
+- Capellades -> San Nicolás
+- Capellades -> Pittier
+- Capellades -> Puerto Jiménez
+- Capellades -> Rita
+- San Marcos -> Sabalito
+- San Marcos -> Laguna
+- San Marcos -> Mata Redonda
+- San Marcos -> Picagres
+- San Marcos -> San Rafael Nuevo
+- San Marcos -> Liberia
+- San Marcos -> Zapote
+- San Marcos -> Concepción Este
+- San Marcos -> Rita
+- San Marcos -> Zaragoza
+- Lagunillas -> San Pedro Sur
+- Lagunillas -> Quesada
+- Lagunillas -> La Victoria
+- Lagunillas -> Santa Elena
+- La Unión -> Zapotal
+- La Unión -> Limón
+- La Unión -> Mercedes Abajo
+- La Unión -> Chira
+- La Unión -> Jesús
+- Las Horquetas -> San Rafael Viejo
+- Las Horquetas -> Cabo Velas
+- Las Horquetas -> Juan Viñas
+- Las Horquetas -> Biolley
+- Las Horquetas -> San Francisco Norte
+- Santiago -> San Miguel Viejo
+- Santiago -> Llanuras del Gaspar
+- Santiago -> Capellades
+- Santiago -> Juan Viñas
+- Santiago -> Santo Domingo
+- Santiago -> Legua
+- La Suiza -> Santiago Nuevo
+- La Suiza -> Varablanca
+- La Suiza -> Concepción Arriba
+- La Suiza -> Sabanillal
+- La Suiza -> La Colonia
+- Palmiralito -> Monte Romo
+- Palmiralito -> Candelaria
+- Palmiralito -> Cirrí Sur
+- Palmiralito -> Tucurrique
+- Palmiralito -> El Roble
+- Palmiralito -> San Gabriel
+- Palmiralito -> Pittier
+- Cutris -> Tobosi
+- Cutris -> Santa Rosa Viejo
+- Cutris -> Jesús Piedad
+- Cutris -> Manzanillo
+- Cutris -> Santiago Nuevo
+- Cutris -> Lagunillas
+- Cutris -> Pilas
+- Cutris -> La Asunción
+- Cutris -> Santa Bárbara
+- Tres Equis -> San Rafael Parrita
+- Tres Equis -> Turrúcares
+- Tres Equis -> Germania
+- Tres Equis -> Cartagena
+- Tres Equis -> San Rafael Nuevo
+- Tres Equis -> San Vicente
+- Santiago Puriscal -> Tobosi
+- Santiago Puriscal -> Cartagena
+- Santiago Puriscal -> Desamparados Sur
+- Santiago Puriscal -> Palmar
+- Santiago Puriscal -> Yolillal
+- Santiago Puriscal -> San Rafael Nuevo
+- Reventazón -> Monte Romo
+- Reventazón -> San Rafael Viejo
+- Reventazón -> Daniel Flores
+- Reventazón -> Tirrases
+- Reventazón -> Venado
+- Buenavista -> Rancho Redondo
+- Buenavista -> Santa Rosa Viejo
+- Buenavista -> Santa Rosa Abajo
+- Buenavista -> Santiago
+- Buenavista -> San Pablo Este
+- Buenavista -> Carrillos
+- Buenavista -> San Rafael Nuevo
+- Buenavista -> Rivas
+- Buenavista -> Concepción Este
+- Buenavista -> Piedades Norte
+- Buenavista -> Monterrey Arriba
+- Dulce Nombre de Jesús -> Palmitos
+- Dulce Nombre de Jesús -> San Pablo Este
+- Dulce Nombre de Jesús -> Labrador
+- Dulce Nombre de Jesús -> La Cuesta
+- San Francisco Abajo -> Golfito
+- San Francisco Abajo -> Río Blanco
+- San Francisco Abajo -> Granadilla
+- San Francisco Abajo -> Cutris
+- San Francisco Abajo -> Tempate
+- San Francisco Abajo -> El Ángel
+- San Francisco Abajo -> San Nicolás
+- San Francisco Abajo -> Aserrí
+- San Francisco Abajo -> Dulce Nombre Este
+- Guácimo -> San Rafael Piedades
+- Guácimo -> Laguna
+- Guácimo -> San Nicolás
+- Guácimo -> San Juan Norte
+- Guácimo -> San Rafael Oeste
+- Guácimo -> Laurel
+- Cirrí Sur -> Zapotal
+- Cirrí Sur -> Los Chiles
+- Cirrí Sur -> Delicias
+- Cirrí Sur -> Liberia
+- Cirrí Sur -> Barbacoas
+- Cirrí Sur -> Jesús
+- Cirrí Sur -> Siquirres
+- Volcán -> Pocora
+- Volcán -> Santiago Nuevo
+- Volcán -> Quepos
+- Volcán -> Canalete
+- Volcán -> Caldera
+- Volcán -> Pavón
+- Volcán -> Barbacoas
+- Volcán -> La Buenavista
+- Volcán -> Monte Verde
+- Tempate -> Cañas Dulces
+- Tempate -> Palmiralito
+- Tempate -> San Isidro Abajo
+- Tempate -> Salitral
+- Tempate -> San Rafael Sur
+- Tempate -> Zaragoza
+- Pitahaya -> Santa Rosa Abajo
+- Pitahaya -> Sabalito
+- Pitahaya -> San Isidro de El General
+- Pitahaya -> Los Ángeles
+- Pitahaya -> San Gabriel
+- Peñas Blancas -> Manzanillo
+- Peñas Blancas -> Mata Redonda
+- Peñas Blancas -> Caldera
+- Peñas Blancas -> San Ignacio
+- Peñas Blancas -> Jesús
+- Peñas Blancas -> Brisas
+- Los Chiles -> Lagunillas
+- Los Chiles -> Palmira
+- Los Chiles -> Santa Rosa Nuevo
+- Los Chiles -> Barranca
+- Los Chiles -> Tures
+- Los Chiles -> Labrador
+- Los Chiles -> Jesús María
+- Los Chiles -> San Rafael Abajo
+- Cabeceras -> Bolsón
+- Cabeceras -> Santiago Poás
+- Cabeceras -> Veintisiete de Abril
+- Cabeceras -> Guacimal
+- Cabeceras -> Palmiralito
+- Cabeceras -> Telire
+- Cabeceras -> Tirrases
+- Cabeceras -> Birrisito
+- Cabeceras -> San Sebastián
+- Cabeceras -> Limoncito
+- El Ángel -> Pitahaya
+- El Ángel -> Dulce Nombre Oeste
+- El Ángel -> Carrillos
+- El Ángel -> San Nicolás
+- El Ángel -> La Victoria
+- El Ángel -> Jesús
+- El Ángel -> San Juan Grande
+- San Pedro Sur -> Daniel Flores
+- San Pedro Sur -> La Suiza
+- Bolívar -> Golfito
+- Bolívar -> Catedral
+- Bolívar -> San José Norte
+- Bolívar -> Yolillal
+- Bolívar -> Pejibayes
+- Bolívar -> Batán
+- La Trinidad -> Isla del Coco
+- La Trinidad -> Piedras Negras
+- La Trinidad -> Florida
+- La Trinidad -> La Unión
+- La Trinidad -> Frailes
+- La Trinidad -> Mayorga
+- La Trinidad -> Buenos Aires
+- La Trinidad -> Aserrí
+- La Trinidad -> San Sebastián
+- La Trinidad -> Batán
+- La Trinidad -> El Mastate
+- Juan Viñas -> Limón
+- Juan Viñas -> Buenavista
+- Juan Viñas -> Río Cuarto
+- Juan Viñas -> San Roque
+- Juan Viñas -> Birrisito
+- Río Cuarto -> San José Norte
+- Río Cuarto -> Patalillo
+- Río Cuarto -> San Isidro de El General
+- Río Cuarto -> Canalete
+- Río Cuarto -> Picagres
+- Río Cuarto -> Palmar
+- Río Cuarto -> San Juan Norte
+- Palmira -> San Rafael Parrita
+- Palmira -> Río Azul
+- Palmira -> El Roble
+- Palmira -> Santo Domingo
+- Palmira -> Zapote
+- Palmira -> Santo Tomás
+- Palmira -> Rita
+- Palmira -> San José Abajo
+- San Isidro Abajo -> Matambú
+- San Isidro Abajo -> San Pedro Antiguo
+- San Isidro Abajo -> Ulloa
+- San Isidro Abajo -> Santa Isabel
+- San Isidro Abajo -> La Buenavista
+- Laguna -> Nosara
+- Laguna -> Los Ángeles
+- Laguna -> Pilas
+- Laguna -> Frailes
+- Laguna -> San Vicente Norte
+- Laguna -> San Isidro Este
+- San Pablo Arriba -> San Juan Arriba
+- San Pablo Arriba -> Dos Ríos
+- San Pablo Arriba -> Cartagena
+- San Pablo Arriba -> Cutris
+- San Pablo Arriba -> Santa Bárbara
+- San Pablo Arriba -> Santa Elena
+- San Pablo Arriba -> San Rafael Arriba
+- Roxana -> San Pablo Este
+- Roxana -> Guadalupe Este
+- Roxana -> Santiago Oeste
+- Pará -> Veintisiete de Abril
+- Pará -> Santiago
+- Pará -> Mercedes Abajo
+- Pará -> San Roque
+- Pará -> Guadalupe Este
+- Mercedes Abajo -> Grifo Alto
+- Mercedes Abajo -> Piedras Negras
+- Mercedes Abajo -> San Isidro de El General
+- Mercedes Abajo -> Manzanillo
+- Mercedes Abajo -> San Pedro Antiguo
+- Mercedes Abajo -> Pacuarito
+- Mercedes Abajo -> Cinco Esquinas
+- Mercedes Abajo -> La Cuesta
+- San Pedro Antiguo -> Patarrá
+- San Pedro Antiguo -> Santiago Poás
+- San Pedro Antiguo -> Veintisiete de Abril
+- San Pedro Antiguo -> Río Cuarto
+- San Pedro Antiguo -> La Buenavista
+- San Pedro Antiguo -> Sierpe
+- San Pedro Antiguo -> Rita
+- Dulce Nombre Oeste -> Cañas Dulces
+- Dulce Nombre Oeste -> San Francisco Abajo
+- Dulce Nombre Oeste -> Oriental
+- Dulce Nombre Oeste -> Savegre
+- Dulce Nombre Oeste -> Mayorga
+- Dulce Nombre Oeste -> Santa Isabel
+- Dulce Nombre Oeste -> Escazú
+- Dulce Nombre Oeste -> La Colonia
+- Dulce Nombre Oeste -> El Mastate
+- Santa Cruz -> San Juan Arriba
+- Santa Cruz -> Rancho Redondo
+- Santa Cruz -> Santiago Poás
+- Santa Cruz -> Desamparados Sur
+- Santa Cruz -> Frailes
+- Santa Cruz -> Esquipulas
+- Santa Cruz -> San Vicente Norte
+- Santa Cruz -> Rita
+- Santa Cruz -> Guadalupe Oeste
+- Santa Cruz -> Monte Verde
+- Los Ángeles -> Santa Rosa Abajo
+- Los Ángeles -> Frailes
+- Los Ángeles -> Sabana Redonda
+- Los Ángeles -> Jesús María
+- Los Ángeles -> Cinco Esquinas
+- Biolley -> Cabeceras
+- Biolley -> Desamparados Sur
+- Biolley -> Matama
+- Biolley -> Quesada
+- Biolley -> Jesús
+- Biolley -> San Juan Grande
+- Biolley -> Concepción Este
+- Biolley -> Tacares
+- Naranjo -> Santiago Nuevo
+- Naranjo -> Cirrí Sur
+- Naranjo -> Telire
+- Naranjo -> Buenos Aires
+- Naranjo -> San Sebastián
+- Naranjo -> Concepción Este
+- Mata Redonda -> La Suiza
+- Mata Redonda -> Buenavista
+- Mata Redonda -> San Francisco Abajo
+- Mata Redonda -> San Pablo Arriba
+- Mata Redonda -> Barranca
+- Mata Redonda -> Santa Bárbara
+- Santa Rosa Nuevo -> San Miguel Viejo
+- Santa Rosa Nuevo -> Cabo Velas
+- Santa Rosa Nuevo -> Lagunillas
+- Santa Rosa Nuevo -> El Ángel
+- Santa Rosa Nuevo -> San Pedro Antiguo
+- Santa Rosa Nuevo -> Ulloa
+- Santa Rosa Nuevo -> San Carlos
+- Santa Rosa Nuevo -> Monterrey Abajo
+- Santa Rosa Nuevo -> La Victoria
+- Quepos -> Río Azul
+- Quepos -> Lagunillas
+- Quepos -> Biolley
+- Quepos -> Oriental
+- Quepos -> Labrador
+- Quepos -> Santa Isabel
+- Quepos -> El Mastate
+- Telire -> San Rafael Viejo
+- Telire -> Limón
+- Telire -> San Pedro Sur
+- Telire -> Tures
+- Telire -> Esquipulas
+- Telire -> San Rafael Abajo
+- Colorado -> Pocora
+- Colorado -> San Miguel Viejo
+- Colorado -> Bijagua
+- Colorado -> Río Cuarto
+- Colorado -> Biolley
+- Colorado -> Mayorga
+- Colorado -> Jesús María
+- Colorado -> Puerto Jiménez
+- Colorado -> Dulce Nombre Este
+- Colorado -> San Francisco Norte
+- Tirrases -> Hojancha
+- Tirrases -> Patarrá
+- Tirrases -> Catedral
+- Tirrases -> Santiago Nuevo
+- Tirrases -> Bolívar
+- Tirrases -> San Pedro Antiguo
+- Tirrases -> San Nicolás
+- Tirrases -> Rivas
+- Canalete -> Piedras Negras
+- Canalete -> Quepos
+- Canalete -> Caldera
+- Canalete -> Santa Elena
+- Canalete -> Santiago Oeste
+- Desamparados Sur -> Naranjo
+- Desamparados Sur -> Savegre
+- Desamparados Sur -> San José Abajo
+- Puntarenas -> Turrúcares
+- Puntarenas -> Tobosi
+- Puntarenas -> Caldera
+- Puntarenas -> Pocosol
+- Heredia -> Llanuras del Gaspar
+- Pilas -> Río Azul
+- Pilas -> Capellades
+- Pilas -> Colorado
+- Pilas -> El Cairo
+- Pilas -> San Lorenzo
+- Pilas -> Río Jiménez
+- Pilas -> San José Abajo
+- Picagres -> San Jerónimo Arriba
+- Picagres -> Barbacoas
+- Picagres -> Jesús María
+- Frailes -> Quepos
+- Frailes -> Pittier
+- Frailes -> Aguabuena
+- Frailes -> Laurel
+- Barranca -> Lagunillas
+- Barranca -> La Unión
+- Barranca -> San Rafael Nuevo
+- Barranca -> Santa Bárbara
+- Varablanca -> Dulce Nombre de Jesús
+- Varablanca -> Telire
+- Varablanca -> Porvenir
+- Varablanca -> Santiago Oeste
+- San Felipe -> Patio de Agua
+- San Felipe -> Sabalito
+- San Felipe -> Cirrí Sur
+- San Felipe -> San Vicente Norte
+- San Felipe -> Piedades Norte
+- Chira -> Bijagua
+- Chira -> Garita
+- Chira -> Palmares
+- Chira -> Caldera
+- Chira -> San José Este
+- Chira -> Paracito
+- Chira -> Zapote Norte
+- Chira -> Sierpe
+- Chira -> Batán
+- Chira -> Piedades Norte
+- Tucurrique -> San Marcos
+- Tucurrique -> Lagunillas
+- Tucurrique -> La Suiza
+- Tucurrique -> Quesada
+- San Pablo Este -> San Rafael Viejo
+- San Pablo Este -> Naranjo
+- San Pablo Este -> Barranca
+- San Pablo Este -> San Gabriel
+- San Pablo Este -> Santo Domingo
+- San Pablo Este -> San Nicolás
+- San Pablo Este -> Santa Bárbara
+- San Pablo Este -> Pocosol
+- Tures -> Santiago Puriscal
+- Tures -> San Nicolás
+- Tures -> Aserrí
+- Tures -> Concepción Arriba
+- Tures -> Puerto Viejo
+- El Roble -> Patio de Agua
+- El Roble -> Santiago Poás
+- El Roble -> Varablanca
+- El Roble -> Escazú
+- El Roble -> Paracito
+- El Roble -> Brisas
+- Ulloa -> Quebrada Honda
+- Ulloa -> Daniel Flores
+- Ulloa -> Germania
+- Ulloa -> Pitahaya
+- Ulloa -> Esquipulas
+- Ulloa -> Mayorga
+- Ulloa -> Pejibayes
+- Ulloa -> Siquirres
+- Oriental -> Hojancha
+- Oriental -> Isla del Coco
+- Oriental -> Cabo Velas
+- Oriental -> Palmiralito
+- Oriental -> Los Ángeles
+- Oriental -> Biolley
+- Oriental -> Buenos Aires
+- Oriental -> Santo Tomás
+- Oriental -> Rincón de Sabanilla
+- San Gabriel -> San Rafael Viejo
+- San Gabriel -> Río Cuarto
+- San Gabriel -> Picagres
+- San Gabriel -> San Pablo Este
+- San Gabriel -> Santo Domingo
+- San Gabriel -> Palmar
+- San Gabriel -> Aserrí
+- Santo Domingo -> Guácimo
+- Santo Domingo -> San Pablo Arriba
+- Santo Domingo -> Savegre
+- Santo Domingo -> San Rafael Arriba
+- Delicias -> Piedras Negras
+- Delicias -> San Vicente
+- Savegre -> Los Chiles
+- Savegre -> Pilas
+- Savegre -> Concepción Este
+- Savegre -> San Vicente
+- Savegre -> La Colonia
+- El Cairo -> Grifo Alto
+- El Cairo -> Piedras Negras
+- El Cairo -> Tempate
+- El Cairo -> San Isidro Abajo
+- El Cairo -> Tirrases
+- El Cairo -> Heredia
+- Porvenir -> Manzanillo
+- Porvenir -> Cabo Velas
+- Porvenir -> Yolillal
+- Porvenir -> Limoncito
+- Paquera -> Isla del Coco
+- Paquera -> Duacarí
+- Paquera -> Florida
+- Paquera -> Guacimal
+- Paquera -> Bebedero
+- Paquera -> Capellades
+- Paquera -> Cutris
+- Paquera -> Buenavista
+- Paquera -> Tempate
+- Paquera -> Dulce Nombre Oeste
+- Paquera -> Desamparados Sur
+- Paquera -> Caldera
+- Paquera -> Escazú
+- Paquera -> San Rafael Oeste
+- Paquera -> Venado
+- Paquera -> Tuis
+- Paquera -> La Cuesta
+- San Carlos -> San José Norte
+- San Carlos -> Río Azul
+- San Carlos -> San Francisco Abajo
+- San Carlos -> Barranca
+- San Carlos -> Chires
+- San Carlos -> San Juan Norte
+- San Carlos -> Escazú
+- San Carlos -> Paracito
+- San Carlos -> La Colonia
+- Candelarita -> Tambor
+- Candelarita -> Cañas Dulces
+- Candelarita -> San Isidro Labrador
+- Candelarita -> Tempate
+- Candelarita -> Quepos
+- Candelarita -> Porvenir
+- San Roque -> Tres Equis
+- San Roque -> Santa Rosa Nuevo
+- San Roque -> Jesús
+- San Roque -> Venado
+- San Roque -> Siquirres
+- Monterrey Abajo -> Santa Rosa Abajo
+- Monterrey Abajo -> Mata Redonda
+- Monterrey Abajo -> Quepos
+- Monterrey Abajo -> Chira
+- Monterrey Abajo -> Porvenir
+- Monterrey Abajo -> Uruca
+- Monterrey Abajo -> Santiago Oeste
+- Caldera -> Rancho Redondo
+- Caldera -> Santa Rosa Abajo
+- Caldera -> San Rafael Viejo
+- Caldera -> Yolillal
+- Caldera -> Cuajiniquil
+- Caldera -> Pejibayes
+- Caldera -> Sabanillal
+- Caldera -> La Colonia
+- Esquipulas -> Rancho Redondo
+- Esquipulas -> Garita
+- Esquipulas -> Puerto Carrillo
+- Esquipulas -> Cuajiniquil
+- Esquipulas -> San Juan Grande
+- Esquipulas -> Tuis
+- Esquipulas -> Monte Verde
+- Mayorga -> Quebrada Honda
+- Mayorga -> Garita
+- Mayorga -> San Pablo Arriba
+- Mayorga -> Dulce Nombre Oeste
+- Mayorga -> Santiago Oeste
+- Pavón -> Grifo Alto
+- Pavón -> Chomes
+- Pavón -> Quepos
+- Pavón -> La Buenavista
+- Pavón -> Paracito
+- Pavón -> Santo Tomás
+- Tabarcia -> Palmares
+- Tabarcia -> Capellades
+- Tabarcia -> Cabeceras
+- Tabarcia -> San Pablo Arriba
+- Tabarcia -> San Felipe
+- Tabarcia -> Mayorga
+- Tabarcia -> Pejibayes
+- Tabarcia -> Liberia
+- Tabarcia -> Dulce Nombre Este
+- Carrillos -> Hacienda Vieja
+- Carrillos -> Guácimo
+- Carrillos -> Los Ángeles
+- Carrillos -> Heredia
+- Carrillos -> Savegre
+- Carrillos -> Pittier
+- Carrillos -> Rivas
+- Palmar -> Bebedero
+- Palmar -> La Suiza
+- Palmar -> Dulce Nombre Oeste
+- Palmar -> Santa Cruz
+- Palmar -> Chira
+- Palmar -> San Francisco de Dos Ríos
+- Yolillal -> Tambor
+- Yolillal -> San Miguel Viejo
+- Yolillal -> Llanuras del Gaspar
+- Yolillal -> Dulce Nombre Oeste
+- Yolillal -> Escazú
+- Yolillal -> Pittier
+- Yolillal -> Rivas
+- Yolillal -> Brisas
+- Yolillal -> Monterrey Arriba
+- Matama -> Santa Rosa Viejo
+- Matama -> Manzanillo
+- Matama -> Chira
+- Matama -> Oriental
+- Matama -> Santa Cruz Sur
+- Matama -> San Isidro Este
+- Matama -> Pocosol
+- Matama -> Sarchí Norte
+- Labrador -> Pavón
+- Labrador -> San Juan Grande
+- Labrador -> Concepción Arriba
+- Cuajiniquil -> Peñas Blancas
+- Cuajiniquil -> Santa Rosa Nuevo
+- Cuajiniquil -> Monterrey Abajo
+- Cuajiniquil -> Escazú
+- Cuajiniquil -> San Lorenzo
+- Cuajiniquil -> Pittier
+- Santa Isabel -> San Rafael Viejo
+- Santa Isabel -> Puerto Carrillo
+- Santa Isabel -> El Ángel
+- Santa Isabel -> San Pedro Antiguo
+- Santa Isabel -> La Buenavista
+- Santa Isabel -> Aguabuena
+- Santa Isabel -> Florencia
+- Santa Isabel -> Sabanillal
+- Pejibayes -> Jesús Piedad
+- Pejibayes -> La Trinidad
+- Pejibayes -> Canalete
+- Pejibayes -> Cuajiniquil
+- Pejibayes -> San Juan Grande
+- Pejibayes -> Monterrey Arriba
+- San Rafael Nuevo -> Quebrada Honda
+- San Rafael Nuevo -> Santa Rosa Viejo
+- San Rafael Nuevo -> Santa Rosa Abajo
+- San Rafael Nuevo -> Palmares
+- San Rafael Nuevo -> Cuajiniquil
+- Liberia -> San Miguel Viejo
+- Liberia -> Limoncito
+- Liberia -> San Francisco Arriba
+- Liberia -> Sabanillal
+- Barbacoas -> Bahía Ballena
+- Barbacoas -> Los Guido
+- Barbacoas -> Puerto Carrillo
+- Barbacoas -> Palmiralito
+- Barbacoas -> Mercedes Abajo
+- Barbacoas -> San José Este
+- Barbacoas -> Zapote Norte
+- Barbacoas -> Puerto Jiménez
+- Barbacoas -> Puerto Viejo
+- San José Este -> Germania
+- San José Este -> Chira
+- San José Este -> Tuis
+- Quesada -> Santa Rosa Viejo
+- Quesada -> Esquipulas
+- Quesada -> Matama
+- Quesada -> San Lorenzo
+- Legua -> Cartagena
+- Legua -> Dulce Nombre de Jesús
+- Legua -> San Pablo Arriba
+- Legua -> Dulce Nombre Oeste
+- Legua -> Oriental
+- Legua -> Savegre
+- Buenos Aires -> Garita
+- Buenos Aires -> San Jerónimo Arriba
+- Buenos Aires -> Capellades
+- Buenos Aires -> Naranjo
+- Buenos Aires -> Tucurrique
+- Buenos Aires -> Rivas
+- Buenos Aires -> La Cuesta
+- Buenos Aires -> La Colonia
+- Turrialba -> Veintisiete de Abril
+- Turrialba -> Puerto Carrillo
+- Turrialba -> La Victoria
+- Turrialba -> Piedades Norte
+- San Vicente Norte -> Turrúcares
+- San Vicente Norte -> Tres Equis
+- San Vicente Norte -> Palmira
+- San Vicente Norte -> Roxana
+- San Vicente Norte -> Chira
+- San Vicente Norte -> Tucurrique
+- San Vicente Norte -> Uruca
+- San Nicolás -> Santa Rosa Viejo
+- San Nicolás -> Palmitos
+- San Nicolás -> San Isidro de El General
+- San Nicolás -> Cartagena
+- San Nicolás -> Tempate
+- San Nicolás -> Los Chiles
+- San Nicolás -> Dulce Nombre Oeste
+- San Nicolás -> Paquera
+- San Nicolás -> Caldera
+- San Nicolás -> San Francisco Arriba
+- La Buenavista -> Dos Ríos
+- La Buenavista -> Atenas
+- La Buenavista -> Sabalito
+- La Buenavista -> Mayorga
+- La Buenavista -> Sabana Redonda
+- La Asunción -> Catedral
+- La Asunción -> Santa Rosa Abajo
+- La Asunción -> Dulce Nombre de Jesús
+- La Asunción -> Mercedes Abajo
+- San Ignacio -> Cañas Dulces
+- San Ignacio -> Lagunillas
+- San Ignacio -> Santiago Puriscal
+- San Ignacio -> Pitahaya
+- San Ignacio -> Los Ángeles
+- San Ignacio -> San Sebastián
+- Guadalupe Este -> Turrúcares
+- Guadalupe Este -> Rancho Redondo
+- Guadalupe Este -> Garita
+- Guadalupe Este -> Santiago Nuevo
+- Guadalupe Este -> Bebedero
+- Guadalupe Este -> Peñas Blancas
+- Guadalupe Este -> La Trinidad
+- Guadalupe Este -> Telire
+- Guadalupe Este -> Paquera
+- Guadalupe Este -> San Nicolás
+- Guadalupe Este -> La Cuesta
+- Chires -> Bolsón
+- Chires -> Garita
+- Chires -> Río Cuarto
+- Chires -> Santa Rosa Nuevo
+- Chires -> San Pablo Este
+- Chires -> Caldera
+- Chires -> Santa Cruz Sur
+- Pacuarito -> Acapulco
+- Pacuarito -> Santiago Poás
+- Pacuarito -> Santiago Nuevo
+- Pacuarito -> San Jerónimo Arriba
+- Pacuarito -> Roxana
+- Pacuarito -> Tabarcia
+- Pacuarito -> Birrisito
+- Pacuarito -> Zapote
+- Pacuarito -> Aguacaliente
+- Birrisito -> Granadilla
+- Birrisito -> Los Ángeles
+- Birrisito -> Picagres
+- Birrisito -> Savegre
+- Birrisito -> Esquipulas
+- Birrisito -> Mayorga
+- Birrisito -> Uruca
+- Birrisito -> San Rafael Norte
+- Birrisito -> Pocosol
+- San Juan Norte -> San José Norte
+- San Juan Norte -> Bebedero
+- San Juan Norte -> Volcán
+- San Juan Norte -> Naranjo
+- San Juan Norte -> Tirrases
+- San Juan Norte -> Tucurrique
+- San Juan Norte -> Santa Isabel
+- Uruca -> Zapotal
+- Uruca -> Palmitos
+- Uruca -> San Isidro Abajo
+- Uruca -> Chira
+- Uruca -> Caldera
+- Uruca -> Yolillal
+- Uruca -> Concepción Este
+- Uruca -> Florencia
+- Zapote -> San Pablo Arriba
+- Zapote -> Pittier
+- Zapote -> Río Jiménez
+- Zapote -> Tarbaca
+- San Francisco de Dos Ríos -> Cañas Dulces
+- San Francisco de Dos Ríos -> Isla del Coco
+- San Francisco de Dos Ríos -> Sarapiquí
+- San Francisco de Dos Ríos -> Bijagua
+- San Francisco de Dos Ríos -> Guácimo
+- San Francisco de Dos Ríos -> Barbacoas
+- San Francisco de Dos Ríos -> Paracito
+- San Francisco de Dos Ríos -> Laurel
+- San Francisco de Dos Ríos -> Sabanillal
+- Escazú -> Los Guido
+- Escazú -> Palmitos
+- Escazú -> Germania
+- Escazú -> Pavón
+- Escazú -> San Nicolás
+- Aserrí -> Bahía Ballena
+- Aserrí -> Jesús Piedad
+- Aserrí -> Daniel Flores
+- Aserrí -> Guacimal
+- Aserrí -> Liberia
+- San Lorenzo -> Patio de Agua
+- San Lorenzo -> Llanuras del Gaspar
+- San Lorenzo -> Manzanillo
+- San Lorenzo -> Santiago Puriscal
+- San Lorenzo -> La Trinidad
+- San Lorenzo -> Desamparados Sur
+- San Lorenzo -> Aguabuena
+- San Lorenzo -> San Rafael Sur
+- San Lorenzo -> San Vicente
+- San Lorenzo -> Sarchí Norte
+- San Lorenzo -> Tacares
+- Sabana Redonda -> Piedras Negras
+- Sabana Redonda -> Guacimal
+- Sabana Redonda -> Tirrases
+- Sabana Redonda -> Chires
+- Sabana Redonda -> San Rafael Abajo
+- Paracito -> Daniel Flores
+- Paracito -> Palmitos
+- Paracito -> La Unión
+- Paracito -> El Ángel
+- Paracito -> Dulce Nombre Oeste
+- Paracito -> San Pablo Este
+- Paracito -> El Roble
+- Paracito -> Monterrey Abajo
+- Paracito -> Santa Bárbara
+- Paracito -> San Francisco Norte
+- Santa Bárbara -> Daniel Flores
+- Santa Bárbara -> Las Horquetas
+- Santa Bárbara -> Juan Viñas
+- Santa Bárbara -> Chira
+- Santa Bárbara -> San Juan Norte
+- Santa Bárbara -> Zapote Norte
+- Santa Bárbara -> Siquirres
+- Zapote Norte -> Jesús María
+- Zapote Norte -> Concepción Este
+- Pittier -> Grifo Alto
+- Pittier -> Nosara
+- Pittier -> Cutris
+- Pittier -> San Pedro Sur
+- Pittier -> San Carlos
+- Pittier -> San Lorenzo
+- Pittier -> Santo Tomás
+- Pittier -> Brisas
+- Pittier -> Diriá
+- La Victoria -> Santa Rosa Viejo
+- La Victoria -> Daniel Flores
+- La Victoria -> Puerto Carrillo
+- La Victoria -> Salitral
+- La Victoria -> Aguas Zarcas
+- La Victoria -> San Vicente
+- La Victoria -> Pocosol
+- Río Jiménez -> Monte Romo
+- Río Jiménez -> Guacimal
+- Río Jiménez -> San Marcos
+- Río Jiménez -> Pacuarito
+- Río Jiménez -> Puerto Jiménez
+- Río Jiménez -> Rita
+- Sierpe -> Tobosi
+- Sierpe -> Los Chiles
+- Sierpe -> Heredia
+- Sierpe -> Barranca
+- Sierpe -> Carrillos
+- Sierpe -> Barbacoas
+- Sierpe -> Tarbaca
+- Sierpe -> Cinco Esquinas
+- Sierpe -> Dulce Nombre Este
+- Sierpe -> San Rafael Abajo
+- Sierpe -> Aguacaliente
+- Sierpe -> Piedades Norte
+- San Sebastián -> Río Blanco
+- San Sebastián -> Cirrí Sur
+- San Sebastián -> Oriental
+- San Sebastián -> Candelarita
+- San Sebastián -> Jesús
+- San Sebastián -> Santa Cruz Sur
+- San Sebastián -> San Rafael Abajo
+- San Sebastián -> Sabanillal
+- San Sebastián -> Pocosol
+- Jesús -> Patio de Agua
+- Jesús -> San Isidro Labrador
+- Jesús -> Aguas Claras
+- Jesús -> Palmar
+- Jesús -> San José Este
+- Jesús -> San Rafael Oeste
+- Jesús María -> Tures
+- Jesús María -> Ulloa
+- Jesús María -> San Lorenzo
+- Jesús María -> Santiago Oeste
+- Jesús María -> Monte Verde
+- Jesús María -> Rincón de Sabanilla
+- Limoncito -> Quebrada Honda
+- Limoncito -> Bijagua
+- Limoncito -> Veintisiete de Abril
+- Limoncito -> Buenavista
+- Limoncito -> Juan Viñas
+- Limoncito -> Palmira
+- Limoncito -> Barranca
+- Limoncito -> San Roque
+- Limoncito -> Guadalupe Oeste
+- Tarbaca -> Hacienda Vieja
+- Tarbaca -> San Pablo Arriba
+- Tarbaca -> San Carlos
+- Tarbaca -> Chires
+- Tarbaca -> Rivas
+- Tarbaca -> Santiago Oeste
+- Salitral -> Monte Romo
+- Salitral -> Rancho Redondo
+- Salitral -> Quebrada Honda
+- Salitral -> Patarrá
+- Salitral -> Capellades
+- Salitral -> San Nicolás
+- Salitral -> Pittier
+- Salitral -> Aguacaliente
+- Santa Cruz Sur -> Chomes
+- Santa Cruz Sur -> Las Horquetas
+- Santa Cruz Sur -> Santa Cruz
+- Santa Cruz Sur -> Picagres
+- Santa Cruz Sur -> Santo Domingo
+- Santa Cruz Sur -> Zaragoza
+- San Rafael Oeste -> San Isidro Labrador
+- San Rafael Oeste -> Volcán
+- San Rafael Oeste -> Río Cuarto
+- San Rafael Oeste -> Picagres
+- San Rafael Oeste -> Savegre
+- Santa Elena -> Guacimal
+- Santa Elena -> San Jerónimo Arriba
+- Santa Elena -> San Juan Norte
+- Santa Elena -> Aguas Zarcas
+- Santo Tomás -> Patarrá
+- Santo Tomás -> Veintisiete de Abril
+- Santo Tomás -> San Rafael Viejo
+- Santo Tomás -> San Marcos
+- Santo Tomás -> Desamparados Sur
+- Santo Tomás -> Labrador
+- Santo Tomás -> Aserrí
+- Venado -> San Rafael Piedades
+- Venado -> Patarrá
+- Venado -> Quepos
+- Venado -> Pilas
+- Venado -> Turrialba
+- Rivas -> Patarrá
+- Rivas -> Pavón
+- Rivas -> San Vicente Norte
+- Rivas -> Río Jiménez
+- Rivas -> San Rafael Sur
+- San Isidro Este -> Turrúcares
+- San Isidro Este -> Bolsón
+- San Isidro Este -> Los Ángeles
+- San Isidro Este -> Canalete
+- San Juan Grande -> San Jerónimo Arriba
+- San Juan Grande -> La Unión
+- San Juan Grande -> Ulloa
+- San Juan Grande -> Santo Tomás
+- Concepción Este -> Veintisiete de Abril
+- Concepción Este -> Aguas Claras
+- Concepción Este -> San Francisco Abajo
+- Concepción Este -> Pará
+- Concepción Este -> Tucurrique
+- San Rafael Norte -> Cabeceras
+- San Rafael Norte -> San Pedro Antiguo
+- San Rafael Norte -> Canalete
+- Batán -> Monte Romo
+- Batán -> Germania
+- Batán -> Zapote
+- Batán -> Santa Elena
+- Batán -> Monte Verde
+- San Francisco Arriba -> San Pablo Arriba
+- San Francisco Arriba -> Naranjo
+- Cinco Esquinas -> Patalillo
+- Cinco Esquinas -> Juan Viñas
+- Cinco Esquinas -> San Pablo Arriba
+- Cinco Esquinas -> Río Jiménez
+- Cinco Esquinas -> Aguabuena
+- Cinco Esquinas -> Corralillo
+- Aguas Zarcas -> Chomes
+- Aguas Zarcas -> Jesús Piedad
+- Aguas Zarcas -> Matambú
+- Aguas Zarcas -> Llanuras del Gaspar
+- Aguas Zarcas -> Volcán
+- Aguas Zarcas -> San Pablo Este
+- Aguas Zarcas -> El Roble
+- Aguas Zarcas -> San Francisco de Dos Ríos
+- Aguas Zarcas -> La Cuesta
+- Aguas Zarcas -> San Rafael Arriba
+- Puerto Jiménez -> Nosara
+- Puerto Jiménez -> Chirripó
+- Puerto Jiménez -> San Pablo Arriba
+- Puerto Jiménez -> San Felipe
+- Puerto Jiménez -> Zapote Norte
+- Puerto Jiménez -> Puerto Viejo
+- Aguabuena -> Sarapiquí
+- Aguabuena -> Santiago Poás
+- Aguabuena -> Santa Rosa Viejo
+- Aguabuena -> Matambú
+- Aguabuena -> La Suiza
+- Aguabuena -> Cutris
+- Aguabuena -> San Pedro Antiguo
+- Aguabuena -> San Rafael Arriba
+- Laurel -> San Rafael Viejo
+- Laurel -> Matambú
+- Laurel -> Las Horquetas
+- Laurel -> Guácimo
+- Laurel -> San Rafael Nuevo
+- Laurel -> Quesada
+- Laurel -> Legua
+- Laurel -> Zapote
+- Laurel -> Santa Cruz Sur
+- Laurel -> Venado
+- Laurel -> Batán
+- Laurel -> Puerto Jiménez
+- Laurel -> Brisas
+- Florencia -> Dos Ríos
+- Florencia -> San Pedro Sur
+- Florencia -> Roxana
+- Florencia -> Concepción Este
+- Florencia -> Monte Verde
+- Dulce Nombre Este -> Sarapiquí
+- Dulce Nombre Este -> Peñas Blancas
+- Dulce Nombre Este -> Cuajiniquil
+- Dulce Nombre Este -> Puerto Viejo
+- Dulce Nombre Este -> San Francisco Norte
+- Brisas -> Cartagena
+- Brisas -> San Francisco Abajo
+- Brisas -> Tures
+- Brisas -> Ulloa
+- Brisas -> Liberia
+- Brisas -> Santo Tomás
+- Siquirres -> Santa Rosa Abajo
+- Siquirres -> Bebedero
+- Siquirres -> Cutris
+- Siquirres -> Aserrí
+- Siquirres -> Laurel
+- Tuis -> Bahía Ballena
+- Tuis -> Guacimal
+- Tuis -> Zapote
+- Tuis -> San José Abajo
+- Rita -> Santiago Poás
+- Rita -> San Jerónimo Arriba
+- Rita -> Pilas
+- Rita -> Corralillo
+- Rita -> Concepción Arriba
+- San Rafael Abajo -> Florida
+- San Rafael Abajo -> Palmitos
+- San Rafael Abajo -> Bolívar
+- San Rafael Abajo -> El Roble
+- San Rafael Abajo -> Limoncito
+- San Rafael Abajo -> Salitral
+- San Rafael Abajo -> Brisas
+- San Rafael Abajo -> Tuis
+- San Rafael Abajo -> Aguacaliente
+- La Cuesta -> San Rafael Piedades
+- La Cuesta -> Zapotal
+- La Cuesta -> Reventazón
+- La Cuesta -> Heredia
+- La Cuesta -> Buenos Aires
+- La Cuesta -> Concepción Este
+- Corralillo -> Patarrá
+- Corralillo -> Catedral
+- Corralillo -> Daniel Flores
+- Corralillo -> Reventazón
+- Corralillo -> San Francisco Abajo
+- Corralillo -> Juan Viñas
+- Corralillo -> Los Ángeles
+- Corralillo -> Picagres
+- Corralillo -> Tucurrique
+- Corralillo -> Piedades Norte
+- Concepción Arriba -> San Isidro Abajo
+- Concepción Arriba -> Oriental
+- Concepción Arriba -> San Vicente
+- Guadalupe Oeste -> Patio de Agua
+- Guadalupe Oeste -> Pavas
+- Guadalupe Oeste -> Garita
+- Guadalupe Oeste -> Canalete
+- Guadalupe Oeste -> Monterrey Abajo
+- Guadalupe Oeste -> Tarbaca
+- Guadalupe Oeste -> La Cuesta
+- Guadalupe Oeste -> Pocosol
+- Sabanillal -> Santa Rosa Viejo
+- Sabanillal -> San Isidro de El General
+- Sabanillal -> Pitahaya
+- Sabanillal -> Pilas
+- Sabanillal -> San José Este
+- Sabanillal -> Guadalupe Este
+- Sabanillal -> San Juan Grande
+- Diriá -> Turrúcares
+- Diriá -> Los Chiles
+- Diriá -> San Pablo Arriba
+- Diriá -> Barranca
+- Diriá -> Delicias
+- Diriá -> Cinco Esquinas
+- Diriá -> Laurel
+- Santiago Oeste -> Bahía Ballena
+- Santiago Oeste -> Santiago Puriscal
+- Santiago Oeste -> San Pablo Arriba
+- Santiago Oeste -> Paquera
+- Santiago Oeste -> Mayorga
+- Santiago Oeste -> Paracito
+- Santiago Oeste -> Río Jiménez
+- Santiago Oeste -> Santa Elena
+- Puerto Viejo -> Patarrá
+- Puerto Viejo -> Cutris
+- Puerto Viejo -> Carrillos
+- Puerto Viejo -> Yolillal
+- Puerto Viejo -> Labrador
+- Puerto Viejo -> Turrialba
+- Puerto Viejo -> Santo Tomás
+- Puerto Viejo -> Concepción Arriba
+- Aguacaliente -> Tirrases
+- Aguacaliente -> Santo Domingo
+- Aguacaliente -> Porvenir
+- Aguacaliente -> Santo Tomás
+- Aguacaliente -> Tacares
+- San Rafael Sur -> Monte Romo
+- San Rafael Sur -> San Nicolás
+- Piedades Norte -> San Francisco Abajo
+- Piedades Norte -> San Pedro Sur
+- Piedades Norte -> La Trinidad
+- Piedades Norte -> La Asunción
+- Piedades Norte -> San Juan Norte
+- Piedades Norte -> Aserrí
+- Piedades Norte -> Santa Bárbara
+- Piedades Norte -> San Isidro Este
+- San Vicente -> Puerto Carrillo
+- San Vicente -> Cutris
+- San Vicente -> Reventazón
+- San Vicente -> Santo Tomás
+- San Vicente -> Rivas
+- San Vicente -> Diriá
+- Zaragoza -> San Pedro Sur
+- Zaragoza -> Monterrey Abajo
+- Pocosol -> Pavas
+- Pocosol -> Cartagena
+- Pocosol -> Buenavista
+- Pocosol -> Tempate
+- Pocosol -> San Isidro Abajo
+- Pocosol -> Cuajiniquil
+- Pocosol -> San Vicente
+- Sarchí Norte -> Veintisiete de Abril
+- Sarchí Norte -> Bebedero
+- Sarchí Norte -> Candelarita
+- Sarchí Norte -> Diriá
+- Sarchí Norte -> San Rafael Sur
+- San Rafael Arriba -> San Miguel Viejo
+- San Rafael Arriba -> Dos Ríos
+- San Rafael Arriba -> Limón
+- San Rafael Arriba -> Santiago
+- San Rafael Arriba -> La Suiza
+- San Rafael Arriba -> Tres Equis
+- San Rafael Arriba -> San Vicente Norte
+- Monte Verde -> Bahía Ballena
+- Monte Verde -> Santa Rosa Abajo
+- Monte Verde -> Matambú
+- Monte Verde -> Cabo Velas
+- Monte Verde -> Laguna
+- Monte Verde -> Tirrases
+- Monte Verde -> San Pablo Este
+- Monte Verde -> Liberia
+- Monte Verde -> San Nicolás
+- Monte Verde -> San Rafael Oeste
+- Monte Verde -> El Mastate
+- Monte Verde -> Tacares
+- La Colonia -> Nosara
+- La Colonia -> Llanuras del Gaspar
+- La Colonia -> Santiago Nuevo
+- La Colonia -> Río Azul
+- La Colonia -> Telire
+- San Francisco Norte -> Patio de Agua
+- San Francisco Norte -> La Unión
+- San Francisco Norte -> Dulce Nombre Oeste
+- San Francisco Norte -> Varablanca
+- San Francisco Norte -> Birrisito
+- El Mastate -> Patalillo
+- El Mastate -> La Trinidad
+- El Mastate -> San Pedro Antiguo
+- El Mastate -> Savegre
+- El Mastate -> Santa Isabel
+- El Mastate -> Aserrí
+- El Mastate -> San Lorenzo
+- El Mastate -> Santa Elena
+- Rincón de Sabanilla -> Dos Ríos
+- Rincón de Sabanilla -> San Isidro de El General
+- Rincón de Sabanilla -> San Francisco Abajo
+- Rincón de Sabanilla -> Los Chiles
+- Rincón de Sabanilla -> La Trinidad
+- Rincón de Sabanilla -> Picagres
+- Rincón de Sabanilla -> Pavón
+- Rincón de Sabanilla -> San Vicente Norte
+- Rincón de Sabanilla -> Salitral
+- Monterrey Arriba -> Hacienda Vieja
+- Monterrey Arriba -> Guacimal
+- Monterrey Arriba -> Río Azul
+- Monterrey Arriba -> Cutris
+- Monterrey Arriba -> San Gabriel
+- Monterrey Arriba -> San Vicente Norte
+- San José Abajo -> Granadilla
+- San José Abajo -> Daniel Flores
+- San José Abajo -> Llanuras del Gaspar
+- San José Abajo -> Buenavista
+- San José Abajo -> Pilas
+- Tacares -> Chomes
+- Tacares -> Liberia
+- Tacares -> San Rafael Abajo
+- Tacares -> Santiago Oeste
+Distancia mínima: 1 unidades
+Ruta del primer par: Pocora -> Hojancha
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: 
+========== RANKING POR TIEMPO PROMEDIO =================
+Calculando ranking de ciudades por tiempo promedio...
+
+Ranking de ciudades (orden creciente por tiempo promedio):
+------------------------------------------------------------
+Ciudad                   Tiempo Promedio     
+------------------------------------------------------------
+Paquera                  2.51
+Río Azul                2.63
+San Isidro Labrador      2.64
+Monte Verde              2.68
+Santa Rosa Abajo         2.69
+Cabeceras                2.69
+Duacarí                 2.70
+Aguas Zarcas             2.70
+Guadalupe Este           2.70
+San Sebastián           2.70
+Llanuras del Gaspar      2.71
+La Trinidad              2.72
+San Francisco de Dos Ríos2.72
+Sierpe                   2.72
+Turrúcares              2.72
+Laurel                   2.73
+Santa Cruz               2.74
+San Nicolás             2.74
+Buenavista               2.74
+Oriental                 2.75
+San Jerónimo Arriba     2.76
+Colorado                 2.76
+Sarapiquí               2.76
+Guacimal                 2.76
+Nosara                   2.77
+Santa Rosa Viejo         2.78
+San Carlos               2.79
+Chira                    2.79
+San Lorenzo              2.79
+Pittier                  2.79
+Cutris                   2.79
+San Rafael Parrita       2.79
+Santa Rosa Nuevo         2.79
+Rincón de Sabanilla     2.80
+Yolillal                 2.80
+Matama                   2.81
+Volcán                  2.81
+Pilas                    2.81
+Limoncito                2.81
+San Francisco Abajo      2.81
+San Miguel Viejo         2.82
+San Juan Arriba          2.82
+Hojancha                 2.83
+Tabarcia                 2.83
+Río Blanco              2.84
+San Marcos               2.84
+Aguabuena                2.84
+Santiago Poás           2.84
+Dulce Nombre Oeste       2.84
+Florida                  2.85
+Corralillo               2.85
+El Mastate               2.85
+Santiago Nuevo           2.85
+Pacuarito                2.86
+Caldera                  2.86
+San Rafael Abajo         2.86
+Paracito                 2.86
+Sabanillal               2.87
+Diriá                   2.87
+La Victoria              2.87
+Monterrey Arriba         2.87
+Monterrey Abajo          2.88
+Candelaria               2.88
+Santiago Oeste           2.88
+Santa Isabel             2.88
+Guácimo                 2.88
+Dos Ríos                2.88
+Salitral                 2.89
+Mercedes Abajo           2.89
+Palmiralito              2.89
+Pocora                   2.90
+San Vicente Norte        2.90
+Río Jiménez            2.90
+Uruca                    2.90
+Cirrí Sur               2.90
+San José Norte          2.91
+Barbacoas                2.91
+El Ángel                2.91
+Quepos                   2.91
+San Pedro Antiguo        2.91
+Puerto Viejo             2.91
+Buenos Aires             2.91
+Zapotal                  2.91
+Biolley                  2.91
+Tirrases                 2.91
+Limón                   2.91
+Birrisito                2.91
+Cañas Dulces            2.92
+San Pablo Arriba         2.92
+Monte Romo               2.92
+Bijagua                  2.92
+Palmira                  2.92
+Jesús María            2.93
+La Colonia               2.93
+Capellades               2.93
+Esquipulas               2.93
+Hacienda Vieja           2.94
+Carrillos                2.94
+San Isidro de El General 2.94
+Piedades Norte           2.95
+Pocosol                  2.95
+Ulloa                    2.95
+Los Chiles               2.95
+Chirripó                2.95
+San Rafael Arriba        2.95
+Palmar                   2.96
+Chires                   2.96
+Santiago                 2.96
+Patalillo                2.96
+Mata Redonda             2.96
+Bahía Ballena           2.97
+Aguas Claras             2.97
+Naranjo                  2.97
+Río Cuarto              2.97
+San Rafael Piedades      2.97
+Cuajiniquil              2.98
+San Pablo Este           2.98
+Santa Bárbara           2.98
+San Juan Norte           2.98
+Guadalupe Oeste          2.98
+Veintisiete de Abril     2.98
+Cinco Esquinas           2.98
+Tambor                   2.98
+Chomes                   2.99
+Rita                     2.99
+Tres Equis               3.00
+Tarbaca                  3.00
+Aserrí                  3.00
+Santo Tomás             3.00
+Siquirres                3.01
+Santa Elena              3.01
+San Rafael Oeste         3.01
+Pejibayes                3.01
+Pitahaya                 3.02
+Concepción Este         3.02
+Candelarita              3.02
+Puerto Jiménez          3.02
+Brisas                   3.02
+San Ignacio              3.03
+La Unión                3.03
+Sabana Redonda           3.04
+San José Abajo          3.04
+San Gabriel              3.04
+Pavón                   3.04
+Bolívar                 3.04
+San Rafael Viejo         3.04
+San Vicente              3.05
+Laguna                   3.05
+Isla del Coco            3.05
+Los Ángeles             3.05
+Aguacaliente             3.05
+Cartagena                3.05
+Daniel Flores            3.05
+Peñas Blancas           3.05
+Juan Viñas              3.05
+El Roble                 3.05
+La Cuesta                3.06
+Batán                   3.06
+Santiago Puriscal        3.06
+Legua                    3.06
+Pará                    3.07
+Matambú                 3.07
+Telire                   3.07
+San Francisco Norte      3.07
+Piedras Negras           3.07
+Savegre                  3.07
+Santa Cruz Sur           3.07
+Florencia                3.07
+Frailes                  3.08
+Canalete                 3.08
+Quesada                  3.08
+San Isidro Abajo         3.09
+Dulce Nombre Este        3.09
+San Rafael Nuevo         3.09
+Escazú                  3.09
+Jesús                   3.09
+Rancho Redondo           3.09
+Garita                   3.10
+Germania                 3.10
+San Roque                3.10
+Bolsón                  3.10
+Tures                    3.10
+San Juan Grande          3.11
+Liberia                  3.11
+Venado                   3.11
+Los Guido                3.11
+La Suiza                 3.12
+San Felipe               3.12
+Rivas                    3.12
+Tobosi                   3.12
+Mayorga                  3.12
+Tuis                     3.12
+Sabalito                 3.12
+Las Horquetas            3.13
+Porvenir                 3.13
+Sarchí Norte            3.13
+Varablanca               3.14
+Picagres                 3.14
+Puntarenas               3.15
+Tempate                  3.15
+Turrialba                3.16
+Zapote                   3.16
+Atenas                   3.16
+Reventazón              3.16
+Tacares                  3.17
+La Asunción             3.17
+Roxana                   3.18
+Cabo Velas               3.18
+Puerto Carrillo          3.18
+El Cairo                 3.19
+Catedral                 3.20
+Barranca                 3.21
+Jesús Piedad            3.21
+Pavas                    3.21
+San Isidro Este          3.21
+Grifo Alto               3.21
+Golfito                  3.22
+Concepción Arriba       3.22
+Santo Domingo            3.23
+Acapulco                 3.23
+La Buenavista            3.23
+Tucurrique               3.24
+Granadilla               3.27
+Patarrá                 3.27
+San Rafael Norte         3.27
+Bebedero                 3.28
+Lagunillas               3.28
+Palmares                 3.30
+Dulce Nombre de Jesús   3.31
+Manzanillo               3.33
+Palmitos                 3.35
+San José Este           3.37
+Desamparados Sur         3.38
+Zapote Norte             3.42
+Heredia                  3.42
+Patio de Agua            3.43
+Zaragoza                 3.45
+San Rafael Sur           3.46
+Delicias                 3.47
+San Francisco Arriba     3.49
+San Pedro Sur            3.49
+Labrador                 3.51
+Quebrada Honda           3.67
+Matina                   10.81
+------------------------------------------------------------
+
+Presione Enter para continuar...
+==================== MENÚ PRINCIPAL ====================
+1. Centro de distribución más efectivo
+2. Mejor ciudad para despacho hacia una ciudad específica
+3. Par de ciudades más distantes
+4. Par de ciudades menos distantes
+5. Ranking de ciudades por tiempo promedio
+6. Información del grafo cargado
+0. Salir
+=========================================================
+
+Seleccione una opción: Gracias por usar el sistema SiNTiEmPo

@@ -1,0 +1,17 @@
+proceso alpha 5
+instruccion 1
+e/s
+instruccion 2
+instruccion 3
+instruccion 4
+instruccion 5
+e/s
+fin proceso
+proceso beta 5
+instruccion 6
+instruccion 7
+e/s
+e/s
+instruccion 8
+instruccion 9
+fin proceso

@@ -1,0 +1,31 @@
+; Programa 2: Cálculo de Factorial iterativo
+; Calcula 6! = 720
+
+; Inicialización
+MOV R0, 6          ; Calcular 6!
+MOV R1, 1          ; Resultado = 1
+MOV R2, 1          ; Contador = 1
+
+FACTORIAL_LOOP:
+; Multiplicar resultado por contador
+MUL R1, R1, R2
+
+; Guardar resultado parcial en memoria
+ST [150], R1
+
+; Incrementar contador
+INC R2
+
+; Verificar si terminamos (R2 > R0)
+CMP R2, R0
+JNE FACTORIAL_LOOP
+
+; Una multiplicación más con R0
+MUL R1, R1, R0
+
+; Guardar resultado final
+ST [250], R1
+LD R8, [150]       ; Leer resultado parcial
+LD R9, [250]       ; Leer resultado final
+MOV R9, R1         ; R9 = resultado final
+HALT

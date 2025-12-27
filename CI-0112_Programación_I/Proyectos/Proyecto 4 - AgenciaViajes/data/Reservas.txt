@@ -1,0 +1,6 @@
+ID: 1 | Hotel: Francia, Paris | Tipo: Paquete Completo | Fechas: 04/07/2005 a 08/07/2005 | Descripcion: Servicios: Servicio a la habitacion, Desayuno buffet | Precio: 1240.00 | Usuario: a
+ID: 2 | Hotel: Barcelona, España | Tipo: Paquete Completo | Fechas: 2025-07-25 a 2025-08-01 | Descripcion: Reserva de paquete completo: Barcelona, España | Precio: 1980.00 | Usuario: a
+ID: 3 | Hotel: Reikiavik, Islandia | Tipo: Paquete Completo | Fechas: 2025-03-15 a 2025-03-22 | Descripcion: Reserva de paquete completo: Reikiavik, Islandia | Precio: 3300.00 | Usuario: a
+ID: 4 | Hotel: Argentina, Buenos Aires | Tipo: Paquete Completo | Fechas: 04/07/2005 a 04/08/2005 | Descripcion: Servicios: Servicio a la habitacion | Precio: 775.00 | Usuario: a
+ID: 5 | Hotel: Paris, Francia | Tipo: Paquete Completo | Fechas: 2025-07-10 a 2025-07-17 | Descripcion: Reserva de paquete completo: Paris, Francia | Precio: 2598.00 | Usuario: a
+ID: 7 | Hotel: Paris, Francia | Tipo: Paquete Completo | Fechas: 2025-07-10 a 2025-07-17 | Descripcion: Reserva de paquete completo: Paris, Francia | Precio: 2598.00 | Usuario: a
