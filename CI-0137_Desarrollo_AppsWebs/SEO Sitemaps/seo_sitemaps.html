@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO y Sitemaps — CI-0137</title>
+  <!-- Fuentes: Inter para el cuerpo, JetBrains Mono para los bloques de código -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Cabecera oscura con el título de la lección -->
+<header>
+  <small>CI-0137 · Diseño y Desarrollo Web · I Ciclo 2026</small>
+  <h1>Posicionamiento <span>SEO</span> y Sitemaps</h1>
+  <p>Lección Asincrónica #2 · Tercera Parte</p>
+</header>
+
+<main>
+
+  <!-- ── Sección 1: SEO ── -->
+  <section>
+    <h2>1. Posicionamiento SEO</h2>
+
+    <p>El <strong>SEO (Search Engine Optimization)</strong> es el conjunto de técnicas para mejorar la visibilidad de un sitio web en los resultados orgánicos (no pagados) de buscadores como Google, Bing o DuckDuckGo.</p>
+
+    <p>Cuando alguien busca algo, el motor de búsqueda usa algoritmos para decidir qué páginas mostrar primero. El SEO busca alinear el sitio con esos criterios.</p>
+
+    <!-- Dato de impacto sobre el tráfico orgánico -->
+    <div class="note green">
+      El 75% de los usuarios nunca pasa de la primera página de resultados. Los primeros 3 resultados concentran entre el 50–60% del tráfico total de una búsqueda.
+    </div>
+
+    <!-- Tarjetas con los tres tipos de SEO -->
+    <h3>Los tres pilares del SEO</h3>
+    <div class="cols">
+      <div class="col">
+        <strong>On-Page</strong>
+        <span>Títulos, meta descriptions, encabezados (H1–H6), URLs amigables, contenido de calidad.</span>
+      </div>
+      <div class="col">
+        <strong>Off-Page</strong>
+        <span>Backlinks de calidad, menciones en redes, autoridad del dominio.</span>
+      </div>
+      <div class="col">
+        <strong>Técnico</strong>
+        <span>Velocidad, HTTPS, sitemap.xml, robots.txt, mobile-friendly, Core Web Vitals.</span>
+      </div>
+    </div>
+
+    <!-- Lista de recomendaciones prácticas -->
+    <h3>Buenas prácticas</h3>
+    <ul>
+      <li>Investigar palabras clave con Google Search Console, Semrush o Ahrefs.</li>
+      <li>Escribir un <code>&lt;title&gt;</code> único y descriptivo (50–60 caracteres) por página.</li>
+      <li>Incluir una <em>meta description</em> atractiva de 150–160 caracteres.</li>
+      <li>Usar un solo <code>&lt;h1&gt;</code> por página y estructurar el resto con H2, H3.</li>
+      <li>Optimizar imágenes: atributo <code>alt</code>, formato WebP, lazy loading.</li>
+      <li>Mantener la velocidad de carga por debajo de 2 segundos (PageSpeed Insights).</li>
+      <li>Diseño responsive / mobile-first.</li>
+      <li>Crear contenido de valor que otros quieran enlazar de forma natural.</li>
+      <li>Registrar el sitio en Google Search Console y Bing Webmaster Tools.</li>
+    </ul>
+  </section>
+
+  <!-- ── Sección 2: Sitemaps ── -->
+  <section>
+    <h2>2. Sitemaps</h2>
+
+    <p>Un <strong>sitemap</strong> es un archivo o página que lista todas las URLs de un sitio de forma organizada. Actúa como un índice que facilita a los robots de búsqueda (<em>crawlers</em>) descubrir y entender la estructura del contenido.</p>
+
+    <!-- Analogía para facilitar la comprensión -->
+    <div class="note purple">
+      <strong>Analogía:</strong> un sitemap es como el directorio de un mall. Le dice a los visitantes (y robots) dónde está cada tienda (página) sin tener que recorrer todos los pasillos.
+    </div>
+
+    <h3>¿Por qué tener uno?</h3>
+    <ul>
+      <li><strong>Indexación más rápida:</strong> los buscadores descubren páginas nuevas en horas, no semanas.</li>
+      <li><strong>Mejor cobertura:</strong> páginas con pocos enlaces internos (huérfanas) también se indexan.</li>
+      <li><strong>Priorización:</strong> indica qué páginas son más importantes y con qué frecuencia cambian.</li>
+      <li><strong>Multimedia:</strong> Google tiene extensiones para indexar imágenes y videos.</li>
+      <li><strong>Diagnóstico:</strong> Google Search Console muestra errores de indexación por sitemap.</li>
+    </ul>
+
+    <!-- Tabla comparativa de los tipos de sitemap -->
+    <h3>Tipos de sitemap</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Tipo</th>
+          <th>Para quién</th>
+          <th>Uso</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="badge badge-blue">XML</span></td>
+          <td>Motores de búsqueda</td>
+          <td>SEO técnico, indexación automática</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-yellow">HTML</span></td>
+          <td>Usuarios</td>
+          <td>Usabilidad, accesibilidad, navegación secundaria</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-blue">XML Imágenes</span></td>
+          <td>Google Images</td>
+          <td>Indexar imágenes del sitio</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-blue">XML Video</span></td>
+          <td>Google Video</td>
+          <td>Mejorar visibilidad de videos</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Implementación paso a paso</h3>
+
+    <!-- Paso 1: estructura básica del archivo sitemap.xml -->
+    <p><strong>Paso 1 — Crear el sitemap XML</strong> en la raíz del servidor:</p>
+    <pre><code><span class="c">&lt;!-- sitemap.xml --&gt;</span>
+<span class="t">&lt;?xml</span> <span class="a">version=</span><span class="v">"1.0"</span> <span class="a">encoding=</span><span class="v">"UTF-8"</span><span class="t">?&gt;</span>
+<span class="t">&lt;urlset</span> <span class="a">xmlns=</span><span class="v">"http://www.sitemaps.org/schemas/sitemap/0.9"</span><span class="t">&gt;</span>
+
+  <span class="t">&lt;url&gt;</span>
+    <span class="t">&lt;loc&gt;</span><span class="x">https://miwebcr.com/</span><span class="t">&lt;/loc&gt;</span>
+    <span class="t">&lt;lastmod&gt;</span><span class="x">2026-04-24</span><span class="t">&lt;/lastmod&gt;</span>
+    <span class="t">&lt;changefreq&gt;</span><span class="x">weekly</span><span class="t">&lt;/changefreq&gt;</span>
+    <span class="t">&lt;priority&gt;</span><span class="x">1.0</span><span class="t">&lt;/priority&gt;</span>
+  <span class="t">&lt;/url&gt;</span>
+
+  <span class="t">&lt;url&gt;</span>
+    <span class="t">&lt;loc&gt;</span><span class="x">https://miwebcr.com/productos</span><span class="t">&lt;/loc&gt;</span>
+    <span class="t">&lt;lastmod&gt;</span><span class="x">2026-04-20</span><span class="t">&lt;/lastmod&gt;</span>
+    <span class="t">&lt;changefreq&gt;</span><span class="x">daily</span><span class="t">&lt;/changefreq&gt;</span>
+    <span class="t">&lt;priority&gt;</span><span class="x">0.8</span><span class="t">&lt;/priority&gt;</span>
+  <span class="t">&lt;/url&gt;</span>
+
+<span class="t">&lt;/urlset&gt;</span></code></pre>
+
+    <!-- Paso 2: robots.txt para que los crawlers encuentren el sitemap -->
+    <p><strong>Paso 2 — Referenciar en robots.txt:</strong></p>
+    <pre><code><span class="c"># robots.txt — raíz del servidor</span>
+<span class="a">User-agent:</span> <span class="x">*</span>
+<span class="a">Disallow:</span> <span class="x">/admin/</span>
+<span class="a">Sitemap:</span> <span class="x">https://miwebcr.com/sitemap.xml</span></code></pre>
+
+    <!-- Paso 3: envío manual a Google Search Console -->
+    <p><strong>Paso 3 — Enviarlo a Google Search Console:</strong> ir a <em>Sitemaps</em>, ingresar la URL (<code>sitemap.xml</code>) y presionar "Enviar". Google mostrará cuántas URLs fueron indexadas.</p>
+
+    <!-- Herramientas recomendadas para generar sitemaps -->
+    <div class="note green">
+      <strong>Herramientas:</strong> en WordPress, <strong>Yoast SEO</strong> o <strong>Rank Math</strong> generan el sitemap automáticamente. Para sitios estáticos, <strong>xml-sitemaps.com</strong> permite generarlo ingresando la URL del dominio.
+    </div>
+  </section>
+
+</main>
+
+<!-- Pie de página con datos del curso -->
+<footer>CI-0137 Diseño y Desarrollo Web · I Ciclo 2026 · UCR</footer>
+
+</body>
+</html>

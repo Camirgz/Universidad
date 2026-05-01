@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cuenta Atrás</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Título de la página -->
+  <h1>Cuenta Atrás</h1>
+
+  <!-- Selector de fecha y botón para iniciar la cuenta -->
+  <div class="selector">
+    <input type="datetime-local" id="inputFecha" />
+    <button onclick="cambiarFecha()">Iniciar cuenta atrás</button>
+    <button class="btn-stop" onclick="detener()">Detener</button>
+  </div>
+
+  <!-- Bloque principal del contador: la fecha final va en data-fecha -->
+  <div class="contador" data-fecha="2025-12-31T00:00:00">
+
+    <!-- Días restantes -->
+    <div class="unidad">
+      <span class="numero" id="dias">00</span>
+      <span class="etiqueta">días</span>
+    </div>
+
+    <!-- Separador -->
+    <span class="sep">:</span>
+
+    <!-- Horas restantes -->
+    <div class="unidad">
+      <span class="numero" id="horas">00</span>
+      <span class="etiqueta">horas</span>
+    </div>
+
+    <!-- Separador -->
+    <span class="sep">:</span>
+
+    <!-- Minutos restantes -->
+    <div class="unidad">
+      <span class="numero" id="minutos">00</span>
+      <span class="etiqueta">minutos</span>
+    </div>
+
+    <!-- Separador -->
+    <span class="sep">:</span>
+
+    <!-- Segundos restantes -->
+    <div class="unidad">
+      <span class="numero" id="segundos">00</span>
+      <span class="etiqueta">segundos</span>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

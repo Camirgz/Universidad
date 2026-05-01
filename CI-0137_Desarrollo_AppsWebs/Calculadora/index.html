@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Tarjeta de la calculadora -->
+<div class="calculator">
+
+  <!-- Nombre / marca de la calculadora -->
+  <div class="brand">CamiCalc</div>
+
+  <!-- Pantalla: línea de historial arriba, número actual abajo -->
+  <div class="display">
+    <div class="display-history" id="history"></div>
+    <div class="display-main" id="main">0</div>
+  </div>
+
+  <!-- Cuadrícula de botones -->
+  <div class="buttons">
+    <!-- Fila 1: funciones especiales y división -->
+    <button class="btn-clear" onclick="clearAll()">AC</button>
+    <button class="btn-del" onclick="deleteLast()">⌫</button>
+    <button class="btn-op" onclick="inputOp('%')">%</button>
+    <button class="btn-op" onclick="inputOp('/')">÷</button>
+
+    <!-- Fila 2: 7, 8, 9 y multiplicación -->
+    <button class="btn-num" onclick="inputNum('7')">7</button>
+    <button class="btn-num" onclick="inputNum('8')">8</button>
+    <button class="btn-num" onclick="inputNum('9')">9</button>
+    <button class="btn-op" onclick="inputOp('*')">×</button>
+
+    <!-- Fila 3: 4, 5, 6 y resta -->
+    <button class="btn-num" onclick="inputNum('4')">4</button>
+    <button class="btn-num" onclick="inputNum('5')">5</button>
+    <button class="btn-num" onclick="inputNum('6')">6</button>
+    <button class="btn-op" onclick="inputOp('-')">−</button>
+
+    <!-- Fila 4: 1, 2, 3 y suma -->
+    <button class="btn-num" onclick="inputNum('1')">1</button>
+    <button class="btn-num" onclick="inputNum('2')">2</button>
+    <button class="btn-num" onclick="inputNum('3')">3</button>
+    <button class="btn-op" onclick="inputOp('+')">+</button>
+
+    <!-- Fila 5: 0 (doble ancho), punto decimal e igual -->
+    <button class="btn-num btn-zero" onclick="inputNum('0')">0</button>
+    <button class="btn-num" onclick="inputDot()">.</button>
+    <button class="btn-eq" onclick="calculate()">=</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

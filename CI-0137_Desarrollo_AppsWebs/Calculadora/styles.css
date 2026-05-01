@@ -1,0 +1,139 @@
+/* Reset y variables de color */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:       #f0f0f0;
+  --surface:  #ffffff;
+  --border:   #cccccc;
+  --text:     #222222;
+  --muted:    #888888;
+  --btn-num:  #f5f5f5;
+  --btn-op:   #e0e0e0;
+  --btn-eq:   #4a90d9;
+  --accent2:  #e05a3a;
+}
+
+/* Página centrada con fondo gris claro */
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  font-family: Arial, sans-serif;
+}
+
+/* Tarjeta principal de la calculadora */
+.calculator {
+  width: 300px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.15);
+}
+
+/* Nombre de la calculadora */
+.brand {
+  font-size: 11px;
+  color: var(--muted);
+  text-align: center;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Pantalla con historial y número actual */
+.display {
+  background: #f9f9f9;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Línea de historial (la expresión anterior) */
+.display-history {
+  font-size: 12px;
+  color: var(--muted);
+  min-height: 16px;
+  margin-bottom: 4px;
+}
+
+/* Número principal en pantalla */
+.display-main {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--text);
+  word-break: break-all;
+  text-align: right;
+}
+
+/* Reduce el tamaño cuando el número es muy largo */
+.display-main.small { font-size: 20px; }
+
+/* Cuadrícula de 4 columnas para los botones */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+/* Estilo base de todos los botones */
+button {
+  height: 56px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: var(--btn-num);
+  color: var(--text);
+  transition: background .1s;
+}
+
+button:hover { background: #e8e8e8; }
+button:active { background: #d0d0d0; }
+
+/* Botones numéricos (0–9) */
+.btn-num {
+  background: var(--btn-num);
+  color: var(--text);
+}
+
+/* Botones de operadores (+, -, ×, ÷, %) */
+.btn-op {
+  background: var(--btn-op);
+  color: #333;
+}
+
+/* Botón igual — ocupa 2 columnas */
+.btn-eq {
+  background: var(--btn-eq);
+  color: #fff;
+  border-color: var(--btn-eq);
+  grid-column: span 2;
+}
+.btn-eq:hover { background: #3a7bc8; }
+
+/* Botón AC — limpiar todo */
+.btn-clear {
+  background: #fce8e3;
+  color: var(--accent2);
+  border-color: #f5c5b8;
+}
+
+/* Botón 0 — ocupa 2 columnas */
+.btn-zero { grid-column: span 2; }
+
+/* Botón borrar último carácter */
+.btn-del {
+  background: #fce8e3;
+  color: var(--accent2);
+  border-color: #f5c5b8;
+}

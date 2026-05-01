@@ -1,0 +1,120 @@
+/* Reset y variables de color */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:     #f0f0f0;
+  --accent: #3a7bc8;
+  --text:   #222222;
+  --muted:  #888888;
+}
+
+/* Página centrada verticalmente con fondo gris claro */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  font-family: Arial, sans-serif;
+  gap: 24px;
+}
+
+/* Título principal */
+h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: var(--text);
+}
+
+/* Contenedor cuadrado para el canvas del reloj */
+.clock-wrap {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+canvas {
+  width: 300px;
+  height: 300px;
+}
+
+/* Display digital debajo del reloj */
+.digital {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: var(--text);
+  text-align: center;
+}
+
+/* Fila de botones de control */
+.controls {
+  display: flex;
+  gap: 12px;
+}
+
+/* Estilo base compartido por todos los botones */
+button {
+  padding: 10px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .1s;
+  background: #fff;
+  color: var(--text);
+}
+
+button:hover { background: #e8e8e8; }
+button:active { background: #d0d0d0; }
+
+/* Botón START/PAUSE — fondo azul */
+.btn-start {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+.btn-start:hover { background: #3068b0; }
+
+/* Botón RESET — estilo neutro */
+.btn-reset {
+  background: #fff;
+  color: var(--text);
+}
+
+/* Lista de vueltas con scroll cuando hay muchas */
+.laps {
+  width: 300px;
+  max-height: 140px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Fila individual de vuelta: número a la izquierda, tiempo a la derecha */
+.lap-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--muted);
+  padding: 5px 8px;
+  border-bottom: 1px solid #ddd;
+}
+.lap-item span:last-child { color: var(--text); }
+
+/* Botón LAP — estilo de contorno */
+.btn-lap {
+  background: #fff;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .1s;
+}
+.btn-lap:hover { background: #eef4fb; }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cronómetro Analógico</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Título de la página -->
+  <h1>Cronómetro</h1>
+
+  <!-- Canvas donde se dibuja el reloj analógico -->
+  <div class="clock-wrap">
+    <canvas id="clock" width="300" height="300"></canvas>
+  </div>
+
+  <!-- Display digital con el tiempo en formato HH:MM:SS.d -->
+  <div class="digital" id="digital">00:00:00.0</div>
+
+  <!-- Botones de control: iniciar/pausar, vuelta y reiniciar -->
+  <div class="controls">
+    <button class="btn-start" id="btnStart" onclick="toggleStart()">START</button>
+    <button class="btn-lap"   id="btnLap"   onclick="addLap()">LAP</button>
+    <button class="btn-reset"               onclick="resetTimer()">RESET</button>
+  </div>
+
+  <!-- Lista de vueltas registradas -->
+  <div class="laps" id="laps"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
